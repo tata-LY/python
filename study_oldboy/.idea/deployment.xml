@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="172.25.2.31">
+    <serverData>
+      <paths name="172.25.2.31">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liuyang/python/study_oldboy/" local="$PROJECT_DIR$" web="/home/liuyang/python/study/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

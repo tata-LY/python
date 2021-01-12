@@ -1,0 +1,41 @@
+2017-04-17 16:34:53,497 - system - INFO - Account 10000 sign in successed
+2017-04-17 16:35:07,970 - system - INFO - 10000 update school shanghai_oldboy_school success
+2017-04-17 16:35:21,305 - system - INFO - 10000 update school shanghai_oldboy_school success
+2017-04-17 16:35:35,961 - system - INFO - Account register failed
+2017-04-17 16:35:45,989 - system - INFO - Account 10001 register sucessed
+2017-04-17 16:35:57,042 - system - INFO - 10000 update school shanghai_oldboy_school success
+2017-04-17 16:36:34,492 - system - INFO - Account 10002 register sucessed
+2017-04-17 16:36:57,875 - system - INFO - Account 10002 modify account user info successed
+2017-04-17 16:37:18,564 - system - INFO - 10002 select course successed
+2017-04-17 17:03:47,833 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:04:13,259 - system - INFO - Account 10001 modify account user info successed
+2017-04-17 17:07:52,087 - system - INFO - Account 10000 sign in successed
+2017-04-17 17:08:01,751 - system - INFO - Account 10002 join to shanghai_oldboy_school class1 sucessed
+2017-04-17 17:08:20,622 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:08:32,342 - system - INFO - Account 10001 Course scheduling modify successed
+2017-04-17 17:08:32,345 - system - INFO - Account 10001 Course scheduling modify successed
+2017-04-17 17:10:52,111 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:13:31,978 - system - INFO - Sign in failed
+2017-04-17 17:13:36,202 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:15:17,468 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:16:30,124 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:16:59,110 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:18:57,946 - system - INFO - Account 10002 grades modify successed
+2017-04-17 17:19:44,051 - system - INFO - Account 10002 grades modify successed
+2017-04-17 17:21:12,969 - system - INFO - Account 10001 sign in successed
+2017-04-17 17:21:25,123 - system - INFO - Account 10002 grades modify successed
+2017-04-17 20:54:13,388 - system - INFO - Account 10001 sign in successed
+2017-04-17 20:58:21,206 - system - INFO - Account 10002 grades modify successed
+2017-04-17 20:58:28,600 - system - INFO - Account 10002 grades modify successed
+2017-04-17 21:15:05,233 - system - INFO - Sign in failed
+2017-04-17 21:15:08,356 - system - INFO - Account 10001 sign in successed
+2017-04-17 21:15:26,802 - system - INFO - Account 10002 grades modify successed
+2017-04-17 21:21:49,886 - system - INFO - Account 10002 sign in successed
+2018-10-24 17:37:23,190 - system - INFO - Sign in failed
+2018-10-24 17:37:40,854 - system - INFO - Sign in failed
+2018-10-24 17:38:00,346 - system - INFO - Account 10003 register sucessed
+2018-10-24 17:38:34,837 - system - INFO - Account 10003 sign in successed
+2018-10-24 17:49:43,825 - system - INFO - Account 10000 sign in successed
+2018-10-24 17:50:14,588 - system - INFO - Account register failed
+2018-10-24 17:50:39,181 - system - INFO - Account 10004 register sucessed
+2018-10-24 17:51:14,135 - system - INFO - Account 10003 sign in successed

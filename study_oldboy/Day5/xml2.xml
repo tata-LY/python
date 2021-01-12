@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<namelist>
+	<personinfo enrolled="yes">
+		<name>liuyang</name>
+		<age checked="no">26</age>
+		<sex>M</sex>
+	</personinfo>
+	<personinfo enrolled="no">
+		<name>zhangjuan</name>
+		<age>25</age>
+		<sex>W</sex>
+	</personinfo>
+</namelist>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.1//EN"  
+"http://tuckey.org/res/dtds/urlrewrite3.1.dtd">  
+<urlrewrite>  
+	<!-- 去掉浏览器自动添加的jsessionid -->
+	<outbound-rule encodefirst="true">
+	  <name>Strip URL Session ID's</name>
+	  <from>^(.*?)(?:\;jsessionid=[^\?#]*)?(\?[^#]*)?(#.*)?$</from>
+	  <to>$1$2$3</to>
+	</outbound-rule>
+	<!-- 首页-登录页 -->
+	<rule>
+		<from>^/index\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/index.do?method=index</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/index\.do\?method=index</from>
+  		<to>/index.html</to>
+  	</outbound-rule>
+	<!-- 首页-登录页 -->
+	<rule>
+		<from>^/login\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/index.do?method=login</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/index\.do\?method=login</from>
+  		<to>/login.html</to>
+  	</outbound-rule>
+	<!-- 首页-注册页 -->
+	<rule>
+		<from>^/reg\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/comIndex.do?method=reg</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/comIndex\.do\?method=reg</from>
+  		<to>/reg.html</to>
+  	</outbound-rule>
+	<!-- 首页-找回密码页 -->
+	<rule>
+		<from>^/forget\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/comIndex.do?method=forget</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/comIndex\.do\?method=forget</from>
+  		<to>/forget.html</to>
+  	</outbound-rule>
+	<!-- 首页-关于我们页 -->
+	<rule>
+		<from>^/about\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/about.do?method=about</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/about\.do\?method=about</from>
+  		<to>/about.html</to>
+  	</outbound-rule>
+	<!-- 首页-产品页 -->
+	<rule>
+		<from>^/product\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/about.do?method=product</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/about\.do\?method=product</from>
+  		<to>/product.html</to>
+  	</outbound-rule>
+  	
+  	
+<!-- 登录后的 -->
+  	
+  	
+ 	<!-- 客户中心 -->
+	<rule>
+		<from>^/info\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/info.do?method=info</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/info\.do\?method=info</from>
+  		<to>/info.html</to>
+  	</outbound-rule>
+  	
+ 	<!-- 合同管理 -->
+	<rule>
+		<from>^/htgl\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/htgl.do?method=index</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/htgl\.do\?method=index</from>
+  		<to>/htgl.html</to>
+  	</outbound-rule>
+  	
+ 	<!-- 企业客户管理 -->
+	<rule>
+		<from>^/qylist\.html(?:\;jsessionid=[^\?#]*)?$</from>
+		<to>/qyList.do?method=list</to>
+	</rule>
+  	<outbound-rule>
+  		<from>/qyList\.do\?method=list</from>
+  		<to>/qylist.html</to>
+  	</outbound-rule>
+  	
+<!-- 登录后的 -->
+  	
+</urlrewrite> 
