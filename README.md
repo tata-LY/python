@@ -1,2 +1,2 @@
-# python
-Python
+1. python-100-days 2021-01-01开始学习，进行中...
+2. study_oldboy 2018年开始学习，2019年初中断。
