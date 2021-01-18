@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="study_oldboy2" />
+    <orderEntry type="module" module-name="python-100-days" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
