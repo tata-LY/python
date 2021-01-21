@@ -20,25 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day04/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/work/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/work/balance" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/work/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day05/work/work shopping/shopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_oldboy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_oldboy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_oldboy2/Day08/work/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/work1_login/user_info" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/work1_login/user_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_oldboy2/.idea/study_oldboy2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_oldboy2/.idea/study_oldboy2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_oldboy2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../study_oldboy2/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_oldboy2/Day08/work/1_3level_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../study_oldboy2/Day08/work/1_3level_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_oldboy2/Day08/work/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../study_oldboy2/Day08/work/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +53,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study_oldboy2/Day08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study_oldboy2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day08" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day06\work" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day05\work\work shopping\conf" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2" />
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day05\work\work shopping\core" />
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day05\work\work shopping\bin" />
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day05\work\work shopping\conf" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day11" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day10" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day08" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day06\work" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.1_3level_menu">
+  <component name="RunManager" selected="Python.2_deepcopy">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_深浅拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +103,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy2\Day08\work\1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../study_oldboy2/Day14/1_深浅拷贝.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../study_oldboy2/Day08/6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../study_oldboy2/Day08/work/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_deepcopy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../study_oldboy2/Day14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../study_oldboy2/Day08/7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../study_oldboy2/Day14/2_deepcopy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2_deepcopy" />
+        <item itemvalue="Python.1_深浅拷贝" />
         <item itemvalue="Python.1_3level_menu" />
         <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.111" />
-        <item itemvalue="Python.7" />
-        <item itemvalue="Python.6" />
+        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +205,7 @@
       <workItem from="1610694852081" duration="329000" />
       <workItem from="1610695220858" duration="2677000" />
       <workItem from="1610929001965" duration="66087000" />
+      <workItem from="1611191342852" duration="13067000" />
     </task>
     <servers />
   </component>
@@ -245,22 +233,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610677592604" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611122005852">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611208681077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611122005852" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611122005852">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611208681077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611208681077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611122005852" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611122005852">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611208681077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611208681077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611122005852" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611122005852">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611208681077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611208681077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611122005852" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611208681077" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1610694778358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,18 +273,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610677080659" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610959468917">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611208890908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610959468917" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611208890908" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/study_oldboy$shopping__1_.coverage" NAME="shopping (1) Coverage Results" MODIFIED="1610963727854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/work/work shopping/bin" />
-    <SUITE FILE_PATH="coverage/study_oldboy$2.coverage" NAME="2 Coverage Results" MODIFIED="1611105377161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
+    <SUITE FILE_PATH="coverage/study_oldboy$2.coverage" NAME="2 Coverage Results" MODIFIED="1611196009372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$5.coverage" NAME="5 Coverage Results" MODIFIED="1611106279709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$login_while.coverage" NAME="login_while Coverage Results" MODIFIED="1610929780406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/day05课上笔记和代码" />
     <SUITE FILE_PATH="coverage/study_oldboy$mm.coverage" NAME="mm Coverage Results" MODIFIED="1611106089799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
-    <SUITE FILE_PATH="coverage/study_oldboy$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1611112542128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1611198271674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$1_.coverage" NAME="1_深浅拷贝 Coverage Results" MODIFIED="1611207851353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$common.coverage" NAME="common Coverage Results" MODIFIED="1610955666099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/work/work shopping/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$encode2.coverage" NAME="encode2 Coverage Results" MODIFIED="1611044547971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="格式化输出 Coverage Results" MODIFIED="1610702477568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/day05课上笔记和代码" />
@@ -306,7 +295,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$while.coverage" NAME="while Coverage Results" MODIFIED="1610604413672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$lesson_dict.coverage" NAME="lesson_dict Coverage Results" MODIFIED="1611017683857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day06/day6课堂" />
     <SUITE FILE_PATH="coverage/study_oldboy$7.coverage" NAME="7 Coverage Results" MODIFIED="1611107145771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
-    <SUITE FILE_PATH="coverage/study_oldboy$1_3level_menu.coverage" NAME="1_3level_menu Coverage Results" MODIFIED="1611121775547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$1_3level_menu.coverage" NAME="1_3level_menu Coverage Results" MODIFIED="1611205466815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$3.coverage" NAME="3 Coverage Results" MODIFIED="1611105640948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$6.coverage" NAME="6 Coverage Results" MODIFIED="1611106418970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$shopping1.coverage" NAME="shopping1 Coverage Results" MODIFIED="1610949849881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
@@ -314,6 +303,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$cn_support.coverage" NAME="cn_support Coverage Results" MODIFIED="1610678088630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day03/day03课件资料" />
     <SUITE FILE_PATH="coverage/study_oldboy$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1611104919663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$course.coverage" NAME="course Coverage Results" MODIFIED="1610951093837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6/work/school_course_system/bin" />
+    <SUITE FILE_PATH="coverage/study_oldboy$2_deepcopy.coverage" NAME="2_deepcopy Coverage Results" MODIFIED="1611208681072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$login.coverage" NAME="login Coverage Results" MODIFIED="1610932725976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/work1_login" />
     <SUITE FILE_PATH="coverage/study_oldboy$3level_menus.coverage" NAME="3level_menus Coverage Results" MODIFIED="1611025077512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/study_oldboy$cn_support2.coverage" NAME="cn_support2 Coverage Results" MODIFIED="1610678361458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day03/day03课件资料" />
