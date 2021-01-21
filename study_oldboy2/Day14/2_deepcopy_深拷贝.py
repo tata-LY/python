@@ -7,7 +7,10 @@
 
 import copy
 
-"""copy.deepcopy 深拷贝"""
+"""
+copy.deepcopy 深拷贝
+- 拷贝所有层，修改拷贝的任何层数据，原数据都不会改变。
+"""
 
 a1 = [[1], [2], 3, 4]
 a2 = copy.deepcopy(a1) # 拷贝
