@@ -15,7 +15,7 @@ def test1(func):
     stop_time = time.time()
     print("the func run time is %s" %(stop_time-start_time))
 
-# test1(bar)
+test1(bar)
 
 def test2(func):
     print(func)
