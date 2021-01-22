@@ -1,5 +1,6 @@
 ### 介绍
-2021年1月22重新开始根据study_oldboy学习Python 3.X 语言，视频采用最新的**老男孩-Python14期VIP视频**，视频百度云盘地址：
+2018年开始通过study_oldboy学习Python，2019年初中断
+2021年1月14重新开始根据study_oldboy学习Python 3.X 语言，视频采用最新的**老男孩-Python14期VIP视频**，视频百度云盘地址：
 链接：https://pan.baidu.com/s/1n_McnMiYiCgv2s8mTuTwnw 
 提取码：70c7 
 
