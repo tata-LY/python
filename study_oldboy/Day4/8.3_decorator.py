@@ -15,6 +15,7 @@ def auth(auth_type):
                     print("\033[32;1mUser has passed authentication\033[0m")
                     result = func(*args, **kwargs)
                     print(result)
+                    return result # 保持被装饰的函数的return
                 else:
                     exit("\033[31;1mInvalid username or password\033[0m")
             elif auth_type == "ladp":
