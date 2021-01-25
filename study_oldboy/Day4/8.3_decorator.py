@@ -10,6 +10,7 @@ def auth(auth_type):
             if auth_type == "local":
                 username = input("Username: ")
                 password = input("Password: ")
+
                 if username == user and password == passwd:
                     print("\033[32;1mUser has passed authentication\033[0m")
                     result = func(*args, **kwargs)
@@ -19,7 +20,7 @@ def auth(auth_type):
             elif auth_type == "ladp":
                 print("no ladp")
 
-        return wrapper()
+        return wrapper() # 应该改成return wrapper
     return out_warpper
 
 @auth(auth_type="local")
