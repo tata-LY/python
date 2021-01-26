@@ -42,3 +42,21 @@
 [ 2021-01-06 08:52:40 ] INFO User[ly] view personal information.
 [ 2021-01-06 08:53:23 ] INFO User ly repay $2000 successfully.
 [ 2021-01-06 08:53:40 ] INFO User ly withdraw $3000 successfully.
+[ 2021-01-26 10:37:35 ] INFO User[ly] view personal information.
+[ 2021-01-26 10:58:51 ] INFO User[ly] view personal information.
+[ 2021-01-26 11:09:27 ] INFO User[ly] view personal information.
+[ 2021-01-26 11:10:12 ] INFO User ly repay $1000 successfully.
+[ 2021-01-26 11:10:20 ] INFO User ly repay $1 successfully.
+[ 2021-01-26 11:27:11 ] INFO User ly saved $10000 successfully.
+[ 2021-01-26 11:34:41 ] INFO Atm account [zj] application is successful.
+[ 2021-01-26 11:34:54 ] INFO User[zj] view personal information.
+[ 2021-01-26 13:36:44 ] INFO User[ly] view personal information.
+[ 2021-01-26 13:45:08 ] INFO User ly Transter 1000 to zj successfully.
+[ 2021-01-26 13:45:14 ] INFO User[ly] view personal information.
+[ 2021-01-26 13:45:47 ] INFO User ly Transter 1000 to ly successfully.
+[ 2021-01-26 13:46:01 ] INFO User[ly] view personal information.
+[ 2021-01-26 13:47:34 ] INFO User ly Transter 1000 to zj successfully.
+[ 2021-01-26 13:47:45 ] INFO User[zj] view personal information.
+[ 2021-01-26 13:52:27 ] INFO User ly saved $100000 successfully.
+[ 2021-01-26 13:52:29 ] INFO User[ly] view personal information.
+[ 2021-01-26 16:36:12 ] INFO User ly Transter 100 to zj successfully.

@@ -1,0 +1,74 @@
+作者：Liuyang 
+
+版本:示例版本 v0.1
+
+程序介绍:
+- ATM系统功能：查看余额、还款、取现、存钱、转账
+- 购物系统管理：查看商品、增加商品、修改商品、删除商品
+- 购物系统消费者：购物
+- 消费者购物调用ATM接口实现付款
+- 功能全部用python的基础知识实现,用到了time\os\sys\json\open\logging\函数\模块知识, 主要帮给大家一个简单的模块化编程的示例
+
+程序结构:
+root:[E:/刘洋工作/20200921/git/tata-LY/python/study_oldboy/Day4/work/]
+|--Atm  # ATM主程目录
+|      |--bin   # 执行目录
+|      |      |--atm.py     # ATM主执行程序
+|      |      |--atm_pay.py     # ATM支付接口
+|      |      |--__init__.py
+|      |--conf
+|      |      |--settings.py    # 配置文件
+|      |      |--__init__.py    
+|      |      |--__pycache__
+|      |      |      |--settings.cpython-38.pyc
+|      |      |      |--__init__.cpython-38.pyc
+|      |--core      # 主要程序逻辑都在这个目录里
+|      |      |--auth.py        # 用户认证模块
+|      |      |--db_handler.py  # 数据库连接引擎
+|      |      |--logger.py      # 日志打印模块
+|      |      |--main.py        # ATM主逻辑交互程序
+|      |      |--payment.py     # ATM支付实现模块
+|      |      |--transaction.py # 记账\还钱\取钱等所有的与账户金额相关的操作都在这
+|      |      |--__init__.py
+|      |      |--__pycache__
+|      |      |      |--auth.cpython-38.pyc
+|      |      |      |--db_handler.cpython-38.pyc
+|      |      |      |--logger.cpython-38.pyc
+|      |      |      |--main.cpython-38.pyc
+|      |      |      |--payment.cpython-38.pyc
+|      |      |      |--transaction.cpython-38.pyc
+|      |      |      |--__init__.cpython-38.pyc
+|      |--db    # 用户数据存储目录
+|      |      |--123.json
+|      |      |--ly.json
+|      |      |--zj.json
+|      |--logs  # 日志记录目录
+|      |      |--access.log # 访问日志
+|      |      |--atm.log    # ATM操作日志
+|      |--__init__.py
+|--readme
+|--shopping # 购物程序目录
+|      |--bin
+|      |      |--shopping.py    # 购物系统主执行程序
+|      |      |--__init__.py
+|      |--conf
+|      |      |--settings.py    # 购物系统配置文件
+|      |      |--__init__.py
+|      |      |--__pycache__
+|      |      |      |--settings.cpython-38.pyc
+|      |      |      |--__init__.cpython-38.pyc
+|      |--core
+|      |      |--common.py      # 购物系统通用模块
+|      |      |--consumer.py    # 购物系统消费者模块
+|      |      |--manager.py     # 购物系统管理者模块
+|      |      |--__init__.py
+|      |      |--__pycache__
+|      |      |      |--common.cpython-38.pyc
+|      |      |      |--consumer.cpython-38.pyc
+|      |      |      |--manager.cpython-38.pyc
+|      |      |      |--__init__.cpython-38.pyc
+|      |--data      # 购物系统数据目录
+|      |      |--goods      # 商品数据
+|      |      |--__init__.py
+|      |--readme.md
+|--__init__.py

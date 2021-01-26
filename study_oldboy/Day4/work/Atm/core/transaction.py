@@ -15,7 +15,7 @@ def transaction(transaction_type, amount, user_data, **others):
         new_balance = balance + amount + amount * interest
     elif action == 'minus':
         if balance < amount:
-            return
+            return  False
         new_balance = balance - amount - amount*interest
 
     user_data['balance'] = new_balance

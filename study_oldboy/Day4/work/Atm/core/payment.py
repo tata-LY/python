@@ -4,6 +4,7 @@
 
 from core import db_handler
 
+
 def credit_card_pay(account_id, password, pay_money):
     user_data = db_handler.db_select(account_id, password)
     pay_money = float(pay_money)
@@ -24,7 +25,7 @@ def credit_card_pay(account_id, password, pay_money):
         return False
 
 def bank_card_pay(account_id, password, pay_money):
-    user_data = db_handler.db_select(account_id, password)
+    user_data = db_handler.db_select(account_id, password,)
     pay_money = float(pay_money)
     if user_data:
         balance = user_data['balance']

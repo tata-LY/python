@@ -64,6 +64,28 @@ def withdraw(user_info):
 
 @login_required
 def transfer(user_info):
+   user_data = user_info['account_data']
+   print('Account transfer'.center(50, '-'))
+   other_account =  input('Other account id>>>').strip()
+   other_account_data = db_handler.db_select(other_account, '', transfer = 'transfer')   # 转账时增加transfer标识，在db处理的时候不需要验证密码。
+   if other_account == user_data['id'] or not other_account_data:
+      print("\033[31;1mTransfer amount failed.\033[0m")
+      return user_info
+   transfer_amount = input('Transfer amount>>>').strip()
+   if not transfer_amount.isdigit():
+      print("\033[31;1mTransfer amount failed.\033[0m")
+      return user_info
+   else:
+      transfer_amount = int(transfer_amount)
+   if user_data['balance'] < transfer_amount:
+      print("\033[31;1mSorry, your credit is running low.\033[0m")
+      return user_info
+   user_data['balance'] -= transfer_amount
+   other_account_data['balance'] += transfer_amount
+   db_handler.db_update(user_data)
+   db_handler.db_update(other_account_data)
+   print("User %s Transter %d to %s successfully." % (user_data['id'], transfer_amount, other_account))
+   logger.logger('atm', "User %s Transter %d to %s successfully." % (user_data['id'], transfer_amount, other_account))
    return user_info
 
 @login_required
@@ -97,13 +119,13 @@ def logout(user_info):
 def interactive(user_info):
    menu = u'''
 ------- Welcome user [{user}] login ZJLY Bank system ---------
-1. View account information (done)
-2. Account repayment (done)
-3. Account withdrawal (done)
-4. Account transfer to other account (no do)
-5. View account bill (no do)
-6. Save money (done)
-7. logout (done)'''.format(user=user_info['account_data']['id'])
+1. View account information（查看余额）
+2. Account repayment（还款）
+3. Account withdrawal（取现）
+4. Account transfer to other account（转账）
+5. View account bill（查看账单）(no do)
+6. Save money（存钱）
+7. logout'''.format(user=user_info['account_data']['id'])
    menu_dic = {
       '1': account_info,
       '2': repay,

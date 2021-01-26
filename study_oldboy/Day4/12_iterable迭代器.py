@@ -25,3 +25,13 @@ print(a.__next__())     # 4
 
 for i in a:
     print(i, end=' ')   # print(a.__next__())
+print('')
+
+a2 = iter(x*x for x in range(5))
+while True:
+    try:
+        x = next(a2)
+        print("fib_gen1: ", x, end=' | ') # fib_gen1:  0 | fib_gen1:  1 | fib_gen1:  4 | fib_gen1:  9 | fib_gen1:  16 |
+    except StopIteration as e:
+        print('\nGenerator return value: ', e.value) # Generator return value:  done   会打印result的值
+        break
