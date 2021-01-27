@@ -1,7 +1,7 @@
-
 1、定义:
 模块：用来从逻辑上组织python代码（变量、函数、类、逻辑：实现一个功能），本质就是.py结尾的python文件（文件名test.py,对应的是模块名是test）。
 包：用来从逻辑上组织模块的，本质就一个目录（必须带有一个__init__.py文件）
+
 2、导入方法
 import module_name
 import module_name1,module_name2
