@@ -4,4 +4,5 @@
 
 print("in package package_test!")
 
-from . import package1
+# import package1       # 不可行
+from . import package1  # '.'代表__init__.py的当前路径

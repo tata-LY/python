@@ -11,10 +11,12 @@ from module_name1 import sayhi as  sayhi_name1
 
 3、import本质（路径搜索和搜索路径）
 导入模块的本质就是把python文件解释一遍。
+    import test >>> test = test.py所有code
+    from test import name >>> name = test.py name所有代码
 导入包的本质就是执行该包下的__init__.py文件。
 
 4、导入优化
-from module_name import sayhi1
+from module_name import sayhi1  # 不再需要每次去module1里找
 
 5、模块的分类
 a、标准库

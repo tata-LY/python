@@ -22,7 +22,18 @@ print(data, type(data))
 data_json = json.dumps(data)
 print(data_json, type(data_json))
 print(json.loads(data_json), type(json.loads(data_json)))
+with open('09_json', 'w', encoding='UTF-8') as f_w:
+    f_w.write(json.dumps(data))
+with open('09_json', 'r', encoding='UTF-8') as f_r:
+    result = json.loads(f_r.read())
+print(result)
 
+print('pickle'.center(50, '-'))
 data_pickle = pickle.dumps(data)
 print(data_pickle, type(data_pickle))
 print(pickle.loads(data_pickle), type(pickle.loads(data_pickle)))
+with open('09_pickle', 'wb') as f_w:
+    f_w.write(pickle.dumps(data))
+with open('09_pickle', 'rb') as f_r:
+    result = pickle.loads(f_r.read())
+print(result)
