@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-# _*_coding:utf-8_*_
-# by liuyang
+# -*- coding: utf-8 -*-
+# @Time    : 2021-1-29 11:21
+# @Author  : liuyang
+# @File    : 4. polymorphism多态.py
+# @Software: PyCharm
 
 class Animal(object):
     def __init__(self, name):
@@ -15,17 +18,14 @@ class Animal(object):
 
 class Cat(Animal):
     def talk(self):
-        print("Cat[%s]: Meow" % self.name)
+        print("Cat[%s]: Meow Meow ..." % self.name)
 
 class Dog(Animal):
     def talk(self):
-        print("Dog[%s]: WangWang..." % self.name)
-
-
+        print("Dog[%s]: Woof Woof ..." % self.name)
 
 c = Cat("喵喵")
 d = Dog("旺财")
-
 
 Animal.animal_talk(c)
 Animal.animal_talk(d)

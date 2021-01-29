@@ -16,14 +16,91 @@
 8. 上面的操作产生的数据都通过pickle序列化保存到文件里
 
 
-视图功能：
-学生：注册、查看个人信息、修改个人信息
-老师：查看授课班级信息、查看个人信息
-管理员：创建课程、创建班级、添加老师、查看课程信息、查看班级信息、查看老师信息
-
 对象属性
-课程：名称、周期、价格
-班级：班级编号、课程名称
-老师：名字、年龄、性别、授课班级（课程、学生列表)、薪水
-学生：名字、年龄、性别、班级（课程、老师）
+课程：名称(name)、周期(period)、价格(price)
+班级：班级名(name)、课程(course)
+老师：名字(name)、年龄(age)、性别(sex)、班级（class_name)、薪水(salary)
+学生：名字(name)、年龄(age)、性别(sex)、班级（class_name）
+
+视图功能：
+学生视图：学生注册、查看个人信息、修改个人信息
+老师视图：查看授课班级信息、查看个人信息
+学校视图：创建课程、创建班级、添加老师、查看课程信息、查看班级信息、查看老师信息
+
+程序结构：
+root:[E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day6\work\school_course_system]
+|--bin      # 主程序目录
+|      |--course.py     # 主执行程序
+|      |--__init__.py
+|--conf     # 配置文件目录
+|      |--settings.py   # 配置文件
+|      |--settings.pyc
+|      |--__init__.py
+|      |--__init__.pyc
+|      |--__pycache__
+|      |      |--settings.cpython-37.pyc
+|      |      |--settings.cpython-38.pyc
+|      |      |--__init__.cpython-37.pyc
+|      |      |--__init__.cpython-38.pyc
+|--core     # 核心代码目录
+|      |--all_class.py      # 所有角色类定义
+|      |--all_class.pyc
+|      |--auth.py           # 用户认证模块
+|      |--auth.pyc
+|      |--logger.py         # 日志输出模块
+|      |--logger.pyc
+|      |--main.py           # main交互interactive
+|      |--main.pyc
+|      |--operate.py        # 所有操作处理模块
+|      |--operate.pyc
+|      |--__init__.py
+|      |--__init__.pyc
+|      |--__pycache__
+|      |      |--all_class.cpython-37.pyc
+|      |      |--all_class.cpython-38.pyc
+|      |      |--auth.cpython-37.pyc
+|      |      |--auth.cpython-38.pyc
+|      |      |--logger.cpython-37.pyc
+|      |      |--logger.cpython-38.pyc
+|      |      |--main.cpython-37.pyc
+|      |      |--main.cpython-38.pyc
+|      |      |--operate.cpython-37.pyc
+|      |      |--operate.cpython-38.pyc
+|      |      |--__init__.cpython-37.pyc
+|      |      |--__init__.cpython-38.pyc
+|--db       # 数据库目录
+|      |--accounts      # 成员数据目录
+|      |      |--school
+|      |      |--student
+|      |      |--teacher
+|      |--class     # 班级数据目录
+|      |      |--s1
+|      |      |--s2
+|      |      |--s3
+|      |      |--s4
+|      |      |--s5
+|      |--course        # 课程数据目录
+|      |      |--golang
+|      |      |--java
+|      |      |--linux
+|      |      |--mysql
+|      |      |--python
+|      |--student       # 学生数据目录
+|      |      |--liuyang
+|      |      |--stu
+|      |      |--stu1
+|      |      |--stu2
+|      |      |--stu3
+|      |      |--stu4
+|      |      |--stu5
+|      |      |--stu6
+|      |      |--stu7
+|      |      |--stu8
+|      |--teacher       # 老师数据目录
+|      |      |--ly
+|      |      |--ronnie
+|      |      |--teacher1
+|      |      |--zhangjuan
+|--logs     # 日志目录
+|      |--course.log
 
