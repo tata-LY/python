@@ -1,0 +1,22 @@
+1. 静态方法
+    只是名义上归类管理， 实际上在静态方法里访问不了类或实例中的任何属性
+2. 类方法
+    只能访问类变量，不能访问实例变量
+3. 属性方法
+    把一个方法变成一个静态属性
+4. 类的特殊成员方法
+    __init__、__new__、__call__
+    类实例化时，先调用__call__，然后__call__调用__new__，__new__调用__init__
+5. 反射
+    hasattr(obj,name_str) , 判断一个对象obj里是否有对应的name_str字符串的方法
+    getattr(obj,name_str), 根据字符串去获取obj对象里的对应的方法的内存地址
+    setattr(obj,'y',z), is equivalent to ``x.y = v''设置obj里的属性
+    delattr(obj,name_str), 删除对象obj里的name_str变量
+6. 异常处理
+    try :
+        code
+    except (Error1,Erro2) as e:
+        print e
+    except Exception :抓住所有错误，不建议用
+    exce[t BaseException：所有错误的基类
+7. 网络编程Socket
