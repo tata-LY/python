@@ -7,29 +7,29 @@ student = {
     'stu02' : 'Zhang Juan Juan',
     'stu03' : 'Liu Yi Yi'
 }
-print(student)
-print(student['stu01'])
+print(student)      # {'stu01': 'Liu Yang', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi'}
+print(student['stu01'])     # Liu Yang
 
 student['stu01'] = '刘洋'
-print(student)
+print(student)      # {'stu01': '刘洋', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi'}
 
 student['stu04'] = 'Liu Zhang Yi Yi'
-print(student)
+print(student)      # {'stu01': '刘洋', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi', 'stu04': 'Liu Zhang Yi Yi'}
 
 del student['stu04']
-print(student)
+print(student)      # {'stu01': '刘洋', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi'}
 
 student.pop('stu03')
-print(student)
+print(student)      # {'stu01': '刘洋', 'stu02': 'Zhang Juan Juan'}
 
 student.popitem()  # 随机删除
-print(student)
+print(student)      # {'stu01': '刘洋'}
 
 student1 = {'stu01': '刘洋', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi', 'stu04': 'Liu Zhang Yi Yi'}
 
-print(student1.get('stu09'))  # 这样取值 不存在的就不会报错
+print(student1.get('stu09'))  # None    # 这样取值 不存在的就不会报错
 
-print('stu03' in student1)
+print('stu03' in student1)      # True
 
 
 av_catalog = {
@@ -68,15 +68,15 @@ student2 = {
 }
 
 student1.update(student2)
-print(student1)
+print(student1)     # {'stu01': 'Liu Yang', 'stu02': 'Zhang Juan Juan', 'stu03': 'Liu Yi Yi', 'stu04': 'Liu Zhang Yi Yi', 'a': 'A', 'b': 'B'}
 
-print(student1.items())
+print(student1.items()) # dict_items([('stu01', 'Liu Yang'), ('stu02', 'Zhang Juan Juan'), ('stu03', 'Liu Yi Yi'), ('stu04', 'Liu Zhang Yi Yi'), ('a', 'A'), ('b', 'B')])
 for index,item in student1.items():
     print(index, item)
 
 student3 = dict.fromkeys([1,2,3],["A","B","C"])    # 如果修改的话，第一层不会修改，深层会同时修改。
-print(student3)
+print(student3)     # {1: ['A', 'B', 'C'], 2: ['A', 'B', 'C'], 3: ['A', 'B', 'C']}
 
 student3[1][0] = 'a'
-print(student3)
+print(student3)     # {1: ['a', 'B', 'C'], 2: ['a', 'B', 'C'], 3: ['a', 'B', 'C']}
 

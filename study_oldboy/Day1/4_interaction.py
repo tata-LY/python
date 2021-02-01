@@ -4,7 +4,7 @@
 
 name = input("name:")
 age = int(input("age:"))
-print(type(age),type(str(age)))
+print(type(age),type(str(age)))     # <class 'int'> <class 'str'>
 job = input("job:")
 
 # raw_input puthon2.X

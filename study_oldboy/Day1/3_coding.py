@@ -3,4 +3,4 @@
 # by liuyang
 
 name = "刘洋"
-print("您好,",name)
+print("您好,%s" % name)       # 您好,刘洋

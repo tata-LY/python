@@ -3,4 +3,4 @@
 # by liuyang
 
 names = ('LiuYang', 'ZhangJuan', 'LiuZhangYiYi')
-print(names.index('LiuYang'))
+print(names.index('LiuYang'))       # 0
