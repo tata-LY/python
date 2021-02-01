@@ -21,3 +21,8 @@ def test1():
     print('in the func test1')
 
 test1()
+"""
+start run func test1
+in the func test1
+the func run time is 3.000950813293457
+"""

@@ -13,3 +13,8 @@ def bar(func):
     print('in the bar')
 
 bar(foo)
+
+"""
+in the foo
+in the bar
+"""

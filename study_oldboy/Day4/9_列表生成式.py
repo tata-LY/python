@@ -11,5 +11,5 @@ for i in range(10):
 
 l2 = [i*2 for i in range(10)] # 列表生成器
 
-print(l1)
-print(l2)
+print(l1)       # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+print(l2)       # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
