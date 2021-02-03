@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9f23dea-ba3c-4af3-ac0c-5eeb9228dc0e" name="study_oldboy">
+        <fileTransfer rootFolder="/home/liuyang/python" accessType="SFTP" host="192.168.113.11" port="22" sshConfigId="b54a21c4-5094-43a8-a835-35ddfb63704a" sshConfig="root@192.168.113.11:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
