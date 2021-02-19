@@ -7,7 +7,7 @@
 import os
 import socket
 server = socket.socket()
-server.bind(('127.0.0.1', 6969))        # 绑定要监听的端口
+server.bind(('127.0.0.1', 9999))        # 绑定要监听的端口
 server.listen(5)     # 监听 并发数
 
 print("我要开始等电话了")

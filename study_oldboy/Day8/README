@@ -1,5 +1,5 @@
-1. socket实现简单的SSH服务端、客户端
-2. socket实现简单的FTP服务端、客户端
+1. Socket实现简单的SSH服务端、客户端
+2. Socket实现简单的FTP服务端、客户端
     1. 读取文件名
     2. 检测文件是否存在
     3. 打开文件
@@ -8,3 +8,9 @@
     6. 等客户端确认
     7. 开始边读边发数据
     8. 发送md5
+3. SocketServer
+    你必须自己创建一个请求处理类，并且这个类要继承BaseRequestHandler,并且还有重写父亲类里的handle()
+    你必须实例化TCPServer ，并且传递server ip 和 你上面创建的请求处理类 给这个TCPServer
+    server.handle_request() #只处理一个请求
+    server.serve_forever() #处理多个一个请求，永远执行
+    Finally, call server_close() to close the socket.

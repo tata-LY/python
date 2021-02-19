@@ -60,3 +60,6 @@
 [ 2021-01-26 13:52:27 ] INFO User ly saved $100000 successfully.
 [ 2021-01-26 13:52:29 ] INFO User[ly] view personal information.
 [ 2021-01-26 16:36:12 ] INFO User ly Transter 100 to zj successfully.
+[ 2021-02-18 11:50:23 ] INFO Atm account [ly] application is failed, account is existed.
+[ 2021-02-18 11:50:55 ] INFO User ly Transter 100 to zj successfully.
+[ 2021-02-18 11:51:00 ] INFO User[ly] view personal information.

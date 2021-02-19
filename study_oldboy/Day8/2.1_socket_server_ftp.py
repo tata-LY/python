@@ -29,7 +29,7 @@ while True:
             conn.send(str(file_size).encode("utf-8"))  # 发送文件大小
             conn.recv(1024) # 等待接收文件大小确认，解决粘包
             for line in f:  # 一行一行循环，防止大文件占用内存
-                m.update(line.encode())
+                m.update(line.encode())     # md5
                 conn.send(line.encode("utf-8"))
             print("file md5: ", m.hexdigest())
             f.close()

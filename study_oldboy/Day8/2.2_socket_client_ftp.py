@@ -37,7 +37,7 @@ while True:
             # data = client.recv(size).decode("utf-8")
 
             data = client.recv(1024).decode("utf-8")
-            m.update(data.encode())
+            m.update(data.encode())     # client端接收的文件md5
             receiced_size += len(data)
             f.write(data)
             # print(file_size, receiced_size)
@@ -47,7 +47,7 @@ while True:
             print("文件接收完成,接收到的文件大小：", receiced_size)
             client.send("文件接收完成,服务端可以发送md5了".encode("utf-8"))   # 通知服务端发送md5,解决粘包问题
 
-        server_file_md5 = client.recv(1024).decode("utf-8")
+        server_file_md5 = client.recv(1024).decode("utf-8") # 接收server端send过来的文件md5
         print("服务端文件的md5: ", server_file_md5)
         print("客户端文件的md5: ", new_file_md5)
     else:
