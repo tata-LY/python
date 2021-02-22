@@ -112,3 +112,130 @@
 [ 2021-02-19 16:30:40 ] INFO liuyang用户认证成功。
 [ 2021-02-19 16:40:32 ] INFO liuyang用户认证成功。
 [ 2021-02-19 16:41:31 ] INFO liuyang用户认证成功。
+[ 2021-02-22 09:49:53 ] INFO liuyang用户认证成功。
+[ 2021-02-22 09:49:54 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录不存在，ls失败。
+[ 2021-02-22 09:50:02 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录不存在，ls失败。
+[ 2021-02-22 09:50:18 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 09:50:24 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1 目录mkdir成功。
+[ 2021-02-22 09:50:26 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 09:51:05 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 09:51:09 ] INFO fi 目录不存在，cd失败。
+[ 2021-02-22 09:51:16 ] INFO 切换到 file1 目录。
+[ 2021-02-22 09:51:19 ] INFO 切换到 ../ 目录。
+[ 2021-02-22 09:51:20 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 09:53:18 ] INFO liuyang用户认证成功。
+[ 2021-02-22 09:54:18 ] INFO liuyang用户认证成功。
+[ 2021-02-22 09:55:24 ] INFO liuyang用户认证成功。
+[ 2021-02-22 09:56:55 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 09:59:07 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:00:42 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:01:44 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:01:47 ] INFO 上传的文件file1有同名的目录存在,上传失败
+[ 2021-02-22 10:02:50 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:02:53 ] INFO 上传的文件file1有同名的目录存在,上传失败
+[ 2021-02-22 10:03:15 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 10:03:20 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1不是一个文件，rm失败。
+[ 2021-02-22 10:03:24 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1 rm成功。
+[ 2021-02-22 10:03:25 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 10:04:59 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:07:02 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:07:49 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:09:23 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:18:31 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:19:55 ] INFO put C:\Users\AXZQ\Desktop\file1用户认证失败。
+[ 2021-02-22 10:20:05 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:20:34 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\dir1 目录mkdir成功。
+[ 2021-02-22 10:20:37 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 10:20:39 ] INFO 切换到 dir1 目录。
+[ 2021-02-22 10:20:40 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-02-22 10:20:43 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-02-22 10:22:15 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:23:10 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:44:35 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:45:28 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:46:26 ] INFO liuyang用户认证成功。
+[ 2021-02-22 10:46:28 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:06:51 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:06:53 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:07:03 ] INFO 文件[file2]上传成功
+[ 2021-02-22 11:26:20 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:27:10 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:27:13 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:27:46 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:27:48 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:29:48 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:29:50 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:32:09 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:32:11 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:33:30 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:33:33 ] INFO 文件[file1]上传成功
+[ 2021-02-22 11:34:00 ] INFO liuyang用户认证成功。
+[ 2021-02-22 11:34:05 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:03:00 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:03:50 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:03:52 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:04:20 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:04:22 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:05:46 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:05:49 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:07:24 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:07:27 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:09:24 ] INFO 文件[file2]上传成功
+[ 2021-02-22 13:13:16 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:13:19 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:14:21 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:14:51 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:15:11 ] INFO liuyang用户认证失败。
+[ 2021-02-22 13:15:20 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:15:29 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:15:49 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:17:16 ] INFO 文件[file2]上传成功
+[ 2021-02-22 13:19:09 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:20:36 ] INFO 文件[file2]上传成功
+[ 2021-02-22 13:21:02 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:21:50 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:21:51 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:22:41 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:43:48 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:43:49 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:43:51 ] INFO 文件[dir1]不存在，下载失败
+[ 2021-02-22 13:43:56 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:43:58 ] INFO 文件[file1]不存在，下载失败
+[ 2021-02-22 13:44:02 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:44:04 ] INFO 文件[file2]不存在，下载失败
+[ 2021-02-22 13:44:48 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:44:51 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:44:52 ] INFO 文件[dir2]不存在，下载失败
+[ 2021-02-22 13:44:56 ] INFO [dir1]是一个目录，下载失败
+[ 2021-02-22 13:46:12 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:46:14 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:48:37 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:48:40 ] INFO [dir1]是一个目录，下载失败
+[ 2021-02-22 13:48:41 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:49:16 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:51:25 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:52:20 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:52:24 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:55:04 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:55:07 ] INFO 文件[file1]上传成功
+[ 2021-02-22 13:55:09 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 13:56:29 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:59:16 ] INFO liuyang用户认证成功。
+[ 2021-02-22 13:59:35 ] INFO liuyang用户认证成功。
+[ 2021-02-22 14:02:40 ] INFO liuyang用户认证成功。
+[ 2021-02-22 14:02:47 ] INFO 文件[file1]上传成功
+[ 2021-02-22 14:02:49 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 14:02:52 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 14:02:54 ] INFO 切换到 dir1 目录。
+[ 2021-02-22 14:02:55 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-02-22 14:02:58 ] INFO 切换到 ../ 目录。
+[ 2021-02-22 14:02:59 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 14:05:04 ] INFO liuyang用户认证成功。
+[ 2021-02-22 14:05:17 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 15:20:45 ] INFO liuyang用户认证成功。
+[ 2021-02-22 15:20:53 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 15:27:48 ] INFO liuyang用户认证成功。
+[ 2021-02-22 15:27:52 ] INFO 文件[file1]下载完成
+[ 2021-02-22 15:27:56 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 15:28:14 ] INFO D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-22 15:30:09 ] INFO liuyang用户认证成功。

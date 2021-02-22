@@ -12,6 +12,7 @@ import configparser
 import os
 import sys
 import re
+import hashlib
 from conf import settings
 from core import logger
 from core import common
@@ -144,18 +145,50 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
                 res_dic['info'] = "%s不是一个文件" % rm_filename
                 logger.logger('INFO', '%s不是一个文件，rm失败。' % rm_filename)
         self.request.send(json.dumps(res_dic).encode("utf-8"))
+    def get(self, *args):
+        current_path = args[0]['current_path']
+        filename = args[0]['filename']
+        filename_abs = os.path.join(current_path, filename)
+        res_dic = {'flag': True}
+        if not os.path.exists(filename_abs):
+            res_dic['flag'] = False
+            res_dic['info'] = "文件[%s]不存在，下载失败" % filename
+            logger.logger('INFO', "文件[%s]不存在，下载失败" % filename)
+        else:
+            if os.path.isdir(filename_abs):
+                res_dic['flag'] = False
+                res_dic['info'] = "[%s]是一个目录，下载失败" % filename
+                logger.logger('INFO', "[%s]是一个目录，下载失败" % filename)
+            elif os.path.isfile(filename_abs):
+                res_dic['filesize'] = os.stat(filename_abs).st_size
+            else:
+                res_dic['flag'] = False
+                res_dic['info'] = "未知错误，下载[%s]下载失败" % filename
+                logger.logger('INFO', "未知错误，下载[%s]下载失败" % filename)
+        self.request.send(json.dumps(res_dic).encode('utf-8'))      # 将file的判断结果发送给client
+        if res_dic['flag']:     # True的话接收client的传包通知
+            self.request.recv(1024)     # 接收client的通知，开始传输文件。防止粘包
+            m = hashlib.md5()
+            f_r = open(filename_abs, 'rb')
+            for line in f_r:
+                self.request.send(line)
+                m.update(line)
+            else:
+                f_r.close()
+                self.request.send(m.hexdigest().encode())
+                logger.logger('INFO', "文件[%s]下载完成" % filename)
 
     def put(self, *args):
         current_path = args[0]['current_path']
         filename = args[0]['filename']
         filesize = args[0]['filesize']
         max_size = args[0]['max_size']
-        root_path = args[0]['ROOT_PATH']
+        root_path = args[0]['root_path']
         root_path_usage = common.dir_file_size(root_path)
         filename_abs = os.path.join(current_path, filename)
-        res_dic['flag'] = True
+        res_dic = {'flag': True}
         """判断是否有同名的目录存在"""
-        if os.path.exists(filename) and os.path.isdir(filename):
+        if os.path.exists(filename_abs) and os.path.isdir(filename_abs):
             res_dic['flag'] = False
             res_dic['info'] = "上传的文件%s有同名的目录存在,上传失败" % filename
             logger.logger('INFO', "上传的文件%s有同名的目录存在,上传失败" % filename)
@@ -165,8 +198,32 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
             res_dic['info'] = "空间不足,上传失败"
             logger.logger('INFO', "空间不足,上传失败")
 
+        self.request.send(json.dumps(res_dic).encode('utf-8'))
         if res_dic['flag']:
-            pass
+            recvice_size = 0
+            f_w = open(filename_abs, 'wb')
+            m = hashlib.md5()
+            while recvice_size < filesize:
+                data = self.request.recv(1024)
+                f_w.write(data)
+                m.update(data)
+                recvice_size += len(data)
+            else:
+                f_w.close()
+                self.request.send("文件接收完成，请client端发送md5".encode("utf-8"))
+                file_client_md5 = self.request.recv(1024).decode("utf-8")
+                filesize_server_md5 = m.hexdigest()
+            if file_client_md5 == filesize_server_md5:
+                """校验md5"""
+                file_md5_isok = True
+                self.request.send(str(file_md5_isok).encode("utf-8"))
+                print("文件[%s]上传成功" % filename)
+                logger.logger('INFO', "文件[%s]上传成功" % filename)
+            else:
+                file_md5_isok = False
+                self.request.send(str(file_md5_isok).encode("utf-8"))
+                print("文件[%s]受损，上传失败" % filename)
+                logger.logger('INFO', "文件[%s]受损，上传失败" % filename)
 
     def handle(self):
         while True:

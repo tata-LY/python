@@ -22,5 +22,3 @@ def dir_file_size(path):
         return file_size
     elif os.path.isfile(path):
         return os.path.getsize(path)
-
-pass
