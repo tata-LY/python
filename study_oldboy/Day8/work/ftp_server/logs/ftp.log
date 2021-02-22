@@ -3,3 +3,112 @@
 [ 2021-02-19 11:13:18 ] INFO liuyang用户认证成功。
 [ 2021-02-19 11:13:33 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test3目录mkdir成功。
 [ 2021-02-19 11:13:43 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 13:56:53 ] INFO liuyang用户认证成功。
+[ 2021-02-19 13:57:48 ] INFO liuyang用户认证成功。
+[ 2021-02-19 13:57:51 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\testdf不存在，rm失败。
+[ 2021-02-19 13:57:51 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\testdf rm成功。
+[ 2021-02-19 14:05:35 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:05:43 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\ddd不存在，rm失败。
+[ 2021-02-19 14:05:43 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\ddd rm成功。
+[ 2021-02-19 14:05:49 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1不是一个文件，rm失败。
+[ 2021-02-19 14:05:49 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 rm成功。
+[ 2021-02-19 14:11:13 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:11:18 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test3不是一个文件，rm失败。
+[ 2021-02-19 14:11:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1 rm成功。
+[ 2021-02-19 14:11:40 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\dir不存在，rm失败。
+[ 2021-02-19 14:11:47 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1不存在，rm失败。
+[ 2021-02-19 14:12:41 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:12:49 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:14:12 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:14:13 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:14:18 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1不是一个文件，rm失败。
+[ 2021-02-19 14:24:57 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:24:59 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:25:16 ] INFO liuyang用户认证失败。
+[ 2021-02-19 14:25:28 ] INFO dfdf用户认证失败。
+[ 2021-02-19 14:25:50 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:25:52 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:25:56 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1不是一个文件，rm失败。
+[ 2021-02-19 14:27:23 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:27:26 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:28:14 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:29:54 ] INFO liuyang用户认证失败。
+[ 2021-02-19 14:30:07 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:30:08 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang目录ls成功。
+[ 2021-02-19 14:30:11 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file不存在，rm失败。
+[ 2021-02-19 14:30:31 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1不是一个目录，rm失败。
+[ 2021-02-19 14:30:37 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test3 rm成功。
+[ 2021-02-19 14:32:03 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:32:04 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 14:35:08 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:35:09 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 14:35:12 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 14:36:45 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:36:46 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 14:36:50 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 14:37:05 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 14:37:07 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 14:56:43 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:58:10 ] INFO liuyang用户认证成功。
+[ 2021-02-19 14:58:24 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1/test2 目录不存在，ls失败。
+[ 2021-02-19 14:58:35 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 15:40:03 ] INFO liuyang用户认证成功。
+[ 2021-02-19 15:42:00 ] INFO liuyang用户认证成功。
+[ 2021-02-19 15:43:28 ] INFO liuyang用户认证成功。
+[ 2021-02-19 15:43:31 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:00:44 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:00:50 ] INFO 切换到 ../ 目录。
+[ 2021-02-19 16:01:03 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:02:36 ] INFO 切换到 . 目录。
+[ 2021-02-19 16:02:57 ] INFO 切换到 ../../ 目录。
+[ 2021-02-19 16:04:38 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:04:39 ] INFO 进入 ../ 目录权限不够。
+[ 2021-02-19 16:04:56 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:04:58 ] INFO test1 目录存在，mkdir失败。
+[ 2021-02-19 16:06:13 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:06:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:06:27 ] INFO 切换到 test1 目录。
+[ 2021-02-19 16:06:31 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:06:34 ] INFO 切换到 ../ 目录。
+[ 2021-02-19 16:06:35 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:06:39 ] INFO 进入 ../ 目录权限不够。
+[ 2021-02-19 16:06:41 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:06:45 ] INFO 切换到 test2 目录。
+[ 2021-02-19 16:06:49 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:06:52 ] INFO test 目录存在，mkdir失败。
+[ 2021-02-19 16:06:54 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:08:01 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:08:02 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:08:07 ] INFO file1 目录存在，mkdir失败。
+[ 2021-02-19 16:08:12 ] INFO 切换到 test1 目录。
+[ 2021-02-19 16:08:13 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:08:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1\test1-1 目录mkdir成功。
+[ 2021-02-19 16:08:27 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:08:31 ] INFO 切换到 test1-1 目录。
+[ 2021-02-19 16:08:34 ] INFO 切换到 ../ 目录。
+[ 2021-02-19 16:08:35 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:08:39 ] INFO 切换到 ../ 目录。
+[ 2021-02-19 16:08:40 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:08:42 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:08:47 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1/test1-1 目录ls成功。
+[ 2021-02-19 16:12:37 ] INFO 切换到 . 目录。
+[ 2021-02-19 16:12:43 ] INFO 切换到 . 目录。
+[ 2021-02-19 16:16:03 ] INFO dfdfd 目录存在，mkdir失败。
+[ 2021-02-19 16:18:16 ] INFO liuyn用户认证失败。
+[ 2021-02-19 16:20:00 ] INFO liuyang用户认证失败。
+[ 2021-02-19 16:20:54 ] INFO fff用户认证失败。
+[ 2021-02-19 16:21:19 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:22:38 ] INFO liuyang用户认证失败。
+[ 2021-02-19 16:22:54 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:23:58 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:24:01 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:24:19 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\file1 rm成功。
+[ 2021-02-19 16:24:21 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-02-19 16:24:24 ] INFO 切换到 test1 目录。
+[ 2021-02-19 16:24:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\liuyang\test1 目录ls成功。
+[ 2021-02-19 16:24:27 ] INFO 切换到 ../ 目录。
+[ 2021-02-19 16:28:27 ] INFO zhangjuan用户认证成功。
+[ 2021-02-19 16:28:32 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\ftproot\zhangjuan 目录ls成功。
+[ 2021-02-19 16:30:40 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:40:32 ] INFO liuyang用户认证成功。
+[ 2021-02-19 16:41:31 ] INFO liuyang用户认证成功。

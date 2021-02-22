@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day7/1.静态方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8/work/ftp_server/ftproot/liuyang/file1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/work/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/work/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/work/ftp_client/ftp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/work/ftp_client/ftp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/work/ftp_server/core/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/work/ftp_server/core/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/work/ftp_server/logs/ftp.log" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/work/ftp_server/logs/ftp.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day4\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ftp_client (1)">
+  <component name="RunManager" selected="Python.临时">
     <configuration name="临时" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.临时" />
         <item itemvalue="Python.ftp_client (1)" />
         <item itemvalue="Python.ftp_server" />
-        <item itemvalue="Python.临时" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.13.2_module_configparser" />
       </list>
@@ -211,7 +214,8 @@
       <workItem from="1611708110902" duration="33638000" />
       <workItem from="1611811109728" duration="19697000" />
       <workItem from="1611887867392" duration="15822000" />
-      <workItem from="1612140387062" duration="94330000" />
+      <workItem from="1612140387062" duration="94939000" />
+      <workItem from="1613713642165" duration="13468000" />
     </task>
     <servers />
   </component>
@@ -239,46 +243,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="0" width="848" height="698" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1612318341005" />
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611905655711">
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613715064532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611905655711" />
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613715064532" />
     <state x="740" y="208" key="FileChooserDialogImpl" timestamp="1612318608052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="1921" height="392" key="GridCell.Tab.0.bottom" timestamp="1613704419807">
+    <state width="1921" height="392" key="GridCell.Tab.0.bottom" timestamp="1613954537086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613704419807" />
-    <state width="1921" height="392" key="GridCell.Tab.0.center" timestamp="1613704419807">
+    <state width="1921" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613954537086" />
+    <state width="1921" height="392" key="GridCell.Tab.0.center" timestamp="1613954537085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613704419807" />
-    <state width="1921" height="392" key="GridCell.Tab.0.left" timestamp="1613704419807">
+    <state width="1921" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613954537085" />
+    <state width="1921" height="392" key="GridCell.Tab.0.left" timestamp="1613954537085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613704419807" />
-    <state width="1921" height="392" key="GridCell.Tab.0.right" timestamp="1613704419807">
+    <state width="1921" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613954537085" />
+    <state width="1921" height="392" key="GridCell.Tab.0.right" timestamp="1613954537085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613704419807" />
-    <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1613631773668">
+    <state width="1921" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613954537085" />
+    <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1613721155129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613631773668" />
-    <state width="1921" height="354" key="GridCell.Tab.1.center" timestamp="1613631773668">
+    <state width="1921" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613721155129" />
+    <state width="1921" height="354" key="GridCell.Tab.1.center" timestamp="1613721155129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613631773668" />
-    <state width="1921" height="354" key="GridCell.Tab.1.left" timestamp="1613631773668">
+    <state width="1921" height="354" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613721155129" />
+    <state width="1921" height="354" key="GridCell.Tab.1.left" timestamp="1613721155129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613631773668" />
-    <state width="1921" height="354" key="GridCell.Tab.1.right" timestamp="1613631773668">
+    <state width="1921" height="354" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613721155129" />
+    <state width="1921" height="354" key="GridCell.Tab.1.right" timestamp="1613721155129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613631773668" />
+    <state width="1921" height="354" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613721155129" />
     <state x="461" y="0" width="998" height="708" key="SettingsEditor" timestamp="1612424619890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,7 +363,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$1_decorater.coverage" NAME="1_decorater Coverage Results" MODIFIED="1611551955233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1613626703171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/day8/ftp_client" />
     <SUITE FILE_PATH="coverage/study_oldboy$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1611882242215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1613704388265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_server/bin" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1613722944108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_server/bin" />
     <SUITE FILE_PATH="coverage/study_oldboy$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1611638486021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/Atm/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_1_socket_client.coverage" NAME="7.1_socket_client Coverage Results" MODIFIED="1612419978038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$cs_play.coverage" NAME="cs_play Coverage Results" MODIFIED="1611821588301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
@@ -426,7 +430,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1612149471543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7/day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$5_def_.coverage" NAME="5_def_函数 Coverage Results" MODIFIED="1611212275431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorater4.coverage" NAME="decorater4 Coverage Results" MODIFIED="1611552886924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client__1_.coverage" NAME="ftp_client (1) Coverage Results" MODIFIED="1613704392869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_client" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client__1_.coverage" NAME="ftp_client (1) Coverage Results" MODIFIED="1613724085422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_client" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_2_socket_client_.coverage" NAME="3.2_socket_client_基本 Coverage Results" MODIFIED="1613614426207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
     <SUITE FILE_PATH="coverage/study_oldboy$15_module_re.coverage" NAME="15_module_re Coverage Results" MODIFIED="1612143039199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$login_while.coverage" NAME="login_while Coverage Results" MODIFIED="1610929780406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/day05课上笔记和代码" />
@@ -443,7 +447,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$13_2_module_configparser.coverage" NAME="13.2_module_configparser Coverage Results" MODIFIED="1613638030220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$15_pickle.coverage" NAME="15_pickle Coverage Results" MODIFIED="1611628363969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$package1.coverage" NAME="package1 Coverage Results" MODIFIED="1611713317237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5/package_test" />
-    <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="临时 Coverage Results" MODIFIED="1613702606702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="临时 Coverage Results" MODIFIED="1613954537081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
     <SUITE FILE_PATH="coverage/study_oldboy$polymorphism.coverage" NAME="polymorphism Coverage Results" MODIFIED="1611890898982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
     <SUITE FILE_PATH="coverage/study_oldboy$04_module_random.coverage" NAME="04_module_random Coverage Results" MODIFIED="1611728069335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_decorator.coverage" NAME="7_decorator Coverage Results" MODIFIED="1611556910384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />

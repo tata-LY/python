@@ -23,16 +23,21 @@
 
 server response:
     201 登录成功
-    202 目录mk成功
-
     401 登录失败
-    402 目录mk失败
 
 
 ftp server启动
     用户配置：
         vim db/user.conf
+[liuyang]
+username = liuyang
+password = 123456
+[zhangjuan]
+username = zhangjuan
+password = 123456
+max_size = 20480000000      # 不设置使用conf/settings里DEFAULT_MAX_SIZE默认值
     启动：
         bin/ftp_server.py
+
 ftp client启动：
     bin/ftp_client.py

@@ -27,10 +27,9 @@ class FtpCient(object):
         mkdir dirname
         rmdir dirname
         rm  filename
-        get filename
-        put filename
-        exit
-        """
+        get filename (no done)
+        put filename (no done)
+        exit"""
         print(msg)
         if args:
             user_dic = args[1]
@@ -39,8 +38,9 @@ class FtpCient(object):
     def user_auth(self):
         """用户登录认证"""
         username = input('username>>>').strip()
-        # passwd = getpass.getpass('password>>>')   # getpass在pycharm中不好用，可以用cmd环境试验
+        # # passwd = getpass.getpass('password>>>')   # getpass在pycharm中不好用，可以用cmd环境试验
         passwd = input('password>>>').strip()
+
         msg_dic = {
             "action": "auth",
             "username": username,
@@ -67,7 +67,8 @@ class FtpCient(object):
         else:
             for l in res_dic['list_dir']:
                 print(l, end='\t')
-            print('')
+            else:
+                print('')
         return user_dic
 
 
@@ -80,7 +81,22 @@ class FtpCient(object):
     def cd(self, *args):
         """切换目录，还未完全实现"""
         user_dic = args[1]
-        user_dic['CURRENT_PATH'] = os.path.join(user_dic['CURRENT_PATH'], args[0].split()[1])
+        if len(args[0].split()) == 1:
+            user_dic['CURRENT_PATH'] = user_dic['ROOT_PATH']
+        else:
+            cd_dir = args[0].split()[1]
+            msg_dic = {
+                'action': 'cd',
+                'root_path': user_dic['ROOT_PATH'],
+                'current_path': user_dic['CURRENT_PATH'],
+                'cd_dir': cd_dir
+            }
+            self.client.send(json.dumps(msg_dic).encode("utf-8"))
+            res_dic = json.loads(self.client.recv(1024))
+            if not res_dic['flag']:
+                print(res_dic['info'])
+            else:
+                user_dic['CURRENT_PATH'] = res_dic['current_path']
         return user_dic
 
     def mkdir(self, *args):
@@ -98,20 +114,77 @@ class FtpCient(object):
             if not res_dic['flag']:print(res_dic['info'])
         return user_dic
 
-    def put(self, *args):
+    def rmdir(self, *args):
+        """删除目录"""
+        user_dic = args[1]
+        if len(args[0].split()) == 1:
+            self.help()
+        else:
+            rmdir_dirname = os.path.join(user_dic['CURRENT_PATH'], args[0].split()[1])
+            msg_dic = {
+                'action': 'rmdir',
+                'rmdir_dirname': rmdir_dirname
+            }
+            self.client.send(json.dumps(msg_dic).encode("utf-8"))
+            res_dic = json.loads(self.client.recv(1024))
+            if not res_dic['flag']:print(res_dic['info'])
+        return user_dic
+
+    def rm(self, *args):
+        """删除文件"""
+        user_dic = args[1]
+        if len(args[0].split()) == 1:
+            self.help()
+        else:
+            rm_filename = os.path.join(user_dic['CURRENT_PATH'], args[0].split()[1])
+            msg_dic = {
+                'action': 'rm',
+                'rm_filename': rm_filename
+            }
+            self.client.send(json.dumps(msg_dic).encode("utf-8"))
+            res_dic = json.loads(self.client.recv(1024))
+            if not res_dic['flag']:print(res_dic['info'])
+        return user_dic
+
+    def get(self, *args):
         print(args)
         user_dic = args[1]
+        return user_dic
+
+    def put(self, *args):
+        user_dic = args[1]
+        if len(args[0].split()) == 1:
+            self.help()
+        else:
+            put_filename = os.path.join(user_dic['CURRENT_PATH'], args[0].split()[1])
+            _, filename = os.path.split(put_filename)
+            if os.path.exists(put_filename):
+                if os.path.isfile(put_filename):
+                    filesize = os.stat(put_filename).st_size
+                    msg_dic = {
+                        'action': 'put',
+                        'current_path': user_dic['CURRENT_PATH'],
+                        'filename': filename,
+                        'filesize': filesize,
+                        'max_size': user_dic['MAX_SIZE'],
+                        'root_path': user_dic['ROOT_PATH']
+                    }
+                    self.client.send(json.dumps(msg_dic).encode("utf-8"))
+                    res_dic = json.loads(self.client.recv(1024))
+                else:
+                    self.help()
+            else:
+                print("文件不存在")
         return user_dic
 
     def exit(self, *args):
         exit("221 Goodbye.")
 
-
     def interractive(self):
         user_dic = self.user_auth()
         if user_dic['AUTH_CODE'] != 201:exit("用户或者密码不正常！")   # ftp用户认证
         while True:
-            print(user_dic)
+            # print(user_dic)
             cmd = input("ftp> ").strip()
             if len(cmd)==0:continue
             cmd_str = cmd.split()[0]
