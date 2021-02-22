@@ -14,6 +14,7 @@ import sys
 import re
 from conf import settings
 from core import logger
+from core import common
 
 class MyTCPHandler(socketserver.BaseRequestHandler):
 
@@ -150,14 +151,22 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         filesize = args[0]['filesize']
         max_size = args[0]['max_size']
         root_path = args[0]['ROOT_PATH']
+        root_path_usage = common.dir_file_size(root_path)
         filename_abs = os.path.join(current_path, filename)
         res_dic['flag'] = True
+        """判断是否有同名的目录存在"""
         if os.path.exists(filename) and os.path.isdir(filename):
             res_dic['flag'] = False
             res_dic['info'] = "上传的文件%s有同名的目录存在,上传失败" % filename
             logger.logger('INFO', "上传的文件%s有同名的目录存在,上传失败" % filename)
         """判断磁盘配额"""
+        if max_size - root_path_usage < filesize:
+            res_dic['flag'] = False
+            res_dic['info'] = "空间不足,上传失败"
+            logger.logger('INFO', "空间不足,上传失败")
 
+        if res_dic['flag']:
+            pass
 
     def handle(self):
         while True:
