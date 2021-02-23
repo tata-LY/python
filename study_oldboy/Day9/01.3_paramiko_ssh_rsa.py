@@ -1,19 +1,16 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2021-2-4 15:39
+# @Time    : 2021-2-23 14:04
 # @Author  : liuyang
-# @File    : ssh.py
+# @File    : 01.3_paramiko_ssh_rsa.py
 # @Software: PyCharm
 
 import paramiko
 
-print("SSH".center(50, '*'))
-hostname = input("Hostname>>> ").strip()
+hostname = '192.168.113.11'
 port = 22
-username = input("Username>>> ").strip()
-password = input("Password>>> ").strip()
-
-import paramiko
+username = 'root'
+ssh_rsa_file = 'id_rsa'
+# private_key = paramiko.RSAKey.from_private_key_file(ssh_rsa_file)
 
 # 创建SSH对象
 ssh = paramiko.SSHClient()
@@ -22,7 +19,7 @@ ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 # 连接服务器
-ssh.connect(hostname=hostname, port=port, username=username, password=password)
+ssh.connect(hostname=hostname, port=port, username=username, key_filename=ssh_rsa_file)
 
 cmd = ''
 while cmd not in ['q', 'exit', 'quit', 'b']:

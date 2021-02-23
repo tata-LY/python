@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2021-2-4 15:39
+# @Time    : 2021-2-23 9:50
 # @Author  : liuyang
-# @File    : ssh.py
+# @File    : 01.1_paramiko_ssh.py
 # @Software: PyCharm
 
 import paramiko
 
-print("SSH".center(50, '*'))
-hostname = input("Hostname>>> ").strip()
+hostname = '10.5.3.11'
 port = 22
-username = input("Username>>> ").strip()
-password = input("Password>>> ").strip()
-
-import paramiko
+username = 'root'
+password = 'Liuyang@2021'
 
 # 创建SSH对象
 ssh = paramiko.SSHClient()
@@ -37,3 +34,6 @@ while cmd not in ['q', 'exit', 'quit', 'b']:
 
 # 关闭连接
 ssh.close()
+
+
+

@@ -20,24 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9/day9/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/fromlinux.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/id_rsa31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/rlock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/ssh rsaa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/ssh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/ssh_sft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/threading_ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/threading_ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/threading_ex3 daemon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/threading_ex3 lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/信号量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/生产者消费者.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/笔记" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/红绿灯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/day9/队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/01.1_paramiko_ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/01.2_paramiko_sft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/01.3_paramiko_ssh_rsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/01.4_paramiko_sft_rsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/id_rsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_oldboy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_oldboy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day8/work/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/work/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_work/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_work/ssh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +80,96 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.临时">
-    <configuration name="临时" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01.4_paramiko_sft_rsa">
+    <configuration name="01.1_paramiko_ssh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/01.1_paramiko_ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01.2_paramiko_sft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/01.2_paramiko_sft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01.3_paramiko_ssh_rsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/01.3_paramiko_ssh_rsa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01.4_paramiko_sft_rsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/01.4_paramiko_sft_rsa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,95 +182,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_work/临时.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day8/work/ftp_server/db" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day8/work/ftp_server/db/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13.2_module_configparser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day5/13.2_module_configparser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ftp_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day8/work/ftp_client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day8/work/ftp_client/ftp_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ftp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day8/work/ftp_server/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day8/work/ftp_server/bin/ftp_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_work/ssh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.临时" />
-        <item itemvalue="Python.ftp_client (1)" />
-        <item itemvalue="Python.ftp_server" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.13.2_module_configparser" />
+        <item itemvalue="Python.01.4_paramiko_sft_rsa" />
+        <item itemvalue="Python.01.3_paramiko_ssh_rsa" />
+        <item itemvalue="Python.01.1_paramiko_ssh" />
+        <item itemvalue="Python.ssh" />
+        <item itemvalue="Python.01.2_paramiko_sft" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +220,7 @@
       <workItem from="1611887867392" duration="15822000" />
       <workItem from="1612140387062" duration="94939000" />
       <workItem from="1613713642165" duration="15146000" />
-      <workItem from="1614041165048" duration="591000" />
+      <workItem from="1614041165048" duration="14093000" />
     </task>
     <servers />
   </component>
@@ -257,30 +248,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="0" width="848" height="698" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1612318341005" />
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613715064532">
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614060332663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613715064532" />
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614060332663" />
     <state x="740" y="208" key="FileChooserDialogImpl" timestamp="1612318608052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="1921" height="354" key="GridCell.Tab.0.bottom" timestamp="1613982928537">
+    <state width="1921" height="373" key="GridCell.Tab.0.bottom" timestamp="1614061298198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613982928537" />
-    <state width="1921" height="354" key="GridCell.Tab.0.center" timestamp="1613982928537">
+    <state width="1921" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614061298198" />
+    <state width="1921" height="373" key="GridCell.Tab.0.center" timestamp="1614061298198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613982928537" />
-    <state width="1921" height="354" key="GridCell.Tab.0.left" timestamp="1613982928537">
+    <state width="1921" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614061298198" />
+    <state width="1921" height="373" key="GridCell.Tab.0.left" timestamp="1614061298198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613982928537" />
-    <state width="1921" height="354" key="GridCell.Tab.0.right" timestamp="1613982928537">
+    <state width="1921" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614061298198" />
+    <state width="1921" height="373" key="GridCell.Tab.0.right" timestamp="1614061298198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613982928537" />
+    <state width="1921" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614061298198" />
     <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1613982928538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,10 +317,11 @@
     <SUITE FILE_PATH="coverage/study_oldboy$6_decorater.coverage" NAME="6_decorater Coverage Results" MODIFIED="1611555944037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$index.coverage" NAME="index Coverage Results" MODIFIED="1612148501684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7/day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$14_2_module_hmac.coverage" NAME="14.2_module_hmac Coverage Results" MODIFIED="1612143031454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
+    <SUITE FILE_PATH="coverage/study_oldboy$01_4_paramiko_sft_rsa.coverage" NAME="01.4_paramiko_sft_rsa Coverage Results" MODIFIED="1614061298189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$mm.coverage" NAME="mm Coverage Results" MODIFIED="1611106089799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorater3.coverage" NAME="decorater3 Coverage Results" MODIFIED="1611293175387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$atm_pay.coverage" NAME="atm_pay Coverage Results" MODIFIED="1611648279602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/Atm/bin" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1613610022538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1614057793335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_decorater.coverage" NAME="2_decorater Coverage Results" MODIFIED="1611543977897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorator7.coverage" NAME="decorator7 Coverage Results" MODIFIED="1611558673745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$14_1_module_hashlib.coverage" NAME="14.1_module_hashlib Coverage Results" MODIFIED="1611738711836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
@@ -343,6 +335,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$8_1_decorator.coverage" NAME="8.1_decorator Coverage Results" MODIFIED="1611557475610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$while.coverage" NAME="while Coverage Results" MODIFIED="1610604413672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$shopping__2_.coverage" NAME="shopping (2) Coverage Results" MODIFIED="1611650622292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/shopping/bin" />
+    <SUITE FILE_PATH="coverage/study_oldboy$01_2_paramiko_sft.coverage" NAME="01.2_paramiko_sft Coverage Results" MODIFIED="1614050743821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$7.coverage" NAME="7 Coverage Results" MODIFIED="1611107145771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$13_3_module_configparser.coverage" NAME="13.3_module_configparser Coverage Results" MODIFIED="1611736918240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$12_iterable.coverage" NAME="12_iterable迭代器 Coverage Results" MODIFIED="1611620979385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
@@ -354,6 +347,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$auth.coverage" NAME="auth Coverage Results" MODIFIED="1611628914889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/Atm/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_1_socket_server_ftp.coverage" NAME="2.1_socket_server_ftp Coverage Results" MODIFIED="1613612324477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
     <SUITE FILE_PATH="coverage/study_oldboy$10_module_shelve.coverage" NAME="10_module_shelve Coverage Results" MODIFIED="1611733914482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
+    <SUITE FILE_PATH="coverage/study_oldboy$01_1_paramiko_ssh.coverage" NAME="01.1_paramiko_ssh Coverage Results" MODIFIED="1614057858845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$03_module_time.coverage" NAME="03_module_time Coverage Results" MODIFIED="1611726010863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_class_cs_play.coverage" NAME="2_class_cs_play Coverage Results" MODIFIED="1611881579158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_1_socketServer_.coverage" NAME="3.1_socketServer_基本 Coverage Results" MODIFIED="1612419974842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
@@ -451,6 +445,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$p_test.coverage" NAME="p_test Coverage Results" MODIFIED="1611714660201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_var.coverage" NAME="2_var Coverage Results" MODIFIED="1612140621538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_decorator.coverage" NAME="2_decorator Coverage Results" MODIFIED="1612142867910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/study_oldboy$01_3_paramiko_ssh_rsa.coverage" NAME="01.3_paramiko_ssh_rsa Coverage Results" MODIFIED="1614060615088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1611198271674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$iterable1.coverage" NAME="iterable1 Coverage Results" MODIFIED="1611564736224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$11_1_module_xml.coverage" NAME="11.1_module_xml Coverage Results" MODIFIED="1611734385141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
