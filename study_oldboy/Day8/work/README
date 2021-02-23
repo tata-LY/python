@@ -68,9 +68,10 @@ root:[D:\刘洋工作\20200921\git\python\study_oldboy\Day8\work]
 |      |      |--ftp.log        # 日志文件
 |      |      |--__init__.py
 
-ftp server启动
-    用户配置：
-        vim db/user.conf
+
+ftp server配置：
+
+vim db/user.conf
 [liuyang]
 username = liuyang
 password = 123456
@@ -78,9 +79,21 @@ password = 123456
 username = zhangjuan
 password = 123456
 max_size = 20480000000      # 不设置使用conf/settings里DEFAULT_MAX_SIZE默认值
-    启动：
-        bin/ftp_server.py
 
-ftp client启动：
-    bin/ftp_client.py
+vim conf/settings.py
+# 监听
+LISTEN = "0.0.0.0"
+# 服务端口
+PORT = 9999
+# ftp server根目录
+ROOT_PATH = os.path.join(BASE_DIR, 'ftproot')
+# ftp用户配置文件
+DB_FILE = os.path.join(BASE_DIR, 'db/user.conf' )
+# 日志文件
+LOG_FILE = os.path.join(BASE_DIR, 'logs/ftp.log' )
+# 默认用户配额
+DEFAULT_MAX_SIZE = 10240000000
+
+ftp server启动：bin/ftp_server.py
+ftp client启动：bin/ftp_client.py
 
