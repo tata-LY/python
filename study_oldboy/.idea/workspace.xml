@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9/01.1_paramiko_ssh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/01.2_paramiko_sft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/01.3_paramiko_ssh_rsa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/01.4_paramiko_sft_rsa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/id_rsa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_oldboy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_oldboy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_work/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_work/ssh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +213,7 @@
       <workItem from="1612140387062" duration="94939000" />
       <workItem from="1613713642165" duration="15146000" />
       <workItem from="1614041165048" duration="14233000" />
+      <workItem from="1614155922866" duration="557000" />
     </task>
     <servers />
   </component>
