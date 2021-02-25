@@ -27,6 +27,7 @@ if __name__ == '__main__':
     t_objs = []     # 列表，存放线程实例t
     for i in range(1, 5):
         t = MyThread(i, i)
+        t.setDaemon(True)  # 将main线程设置为Daemon线程,它做为程序主线程的守护线程,当主线程退出时,m线程也会退出,由m启动的其它子线程会同时退出,不管是否执行完任务
         t.start()
         t_objs.append(t)        # 为了不阻塞后面线程的启动，不再这里join，先放到一个列表里
 

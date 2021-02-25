@@ -76,29 +76,7 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day4\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02.4_threading_ex4">
-    <configuration name="01.4_paramiko_sft_rsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/01.4_paramiko_sft_rsa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.02.5_threading_ex5">
     <configuration name="02.1_threading_ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02.4_threading_ex4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02.4_threading_ex4_daemon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,7 +156,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/02.4_threading_ex4.py" />
+      <option name="SCRIPT_NAME" value="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day9\02.4_threading_ex4_daemon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02.5_threading_ex5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/02.5_threading_ex5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.02.4_threading_ex4" />
+        <item itemvalue="Python.02.5_threading_ex5" />
+        <item itemvalue="Python.02.4_threading_ex4_daemon" />
         <item itemvalue="Python.02.3_threading_ex3" />
         <item itemvalue="Python.02.2_threading_ex2" />
         <item itemvalue="Python.02.1_threading_ex1" />
-        <item itemvalue="Python.01.4_paramiko_sft_rsa" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,7 @@
       <workItem from="1612140387062" duration="94939000" />
       <workItem from="1613713642165" duration="15146000" />
       <workItem from="1614041165048" duration="14233000" />
-      <workItem from="1614155922866" duration="7761000" />
+      <workItem from="1614155922866" duration="8490000" />
     </task>
     <servers />
   </component>
@@ -253,26 +253,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="947" height="268" key="GridCell.Tab.0.bottom" timestamp="1614217842124">
+    <state width="947" height="268" key="GridCell.Tab.0.bottom" timestamp="1614232765223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614217842124" />
-    <state width="947" height="268" key="GridCell.Tab.0.center" timestamp="1614217842124">
+    <state width="947" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614232765223" />
+    <state width="947" height="268" key="GridCell.Tab.0.center" timestamp="1614232765223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614217842124" />
-    <state width="947" height="268" key="GridCell.Tab.0.left" timestamp="1614217842124">
+    <state width="947" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614232765223" />
+    <state width="947" height="268" key="GridCell.Tab.0.left" timestamp="1614232765223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614217842124" />
-    <state width="947" height="268" key="GridCell.Tab.0.right" timestamp="1614217842124">
+    <state width="947" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614232765223" />
+    <state width="947" height="268" key="GridCell.Tab.0.right" timestamp="1614232765223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614217842124" />
+    <state width="947" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614232765223" />
     <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1613982928538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,6 +367,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$3_tuple.coverage" NAME="3_tuple Coverage Results" MODIFIED="1612141907921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorater1.coverage" NAME="decorater1 Coverage Results" MODIFIED="1611543793000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_decorater.coverage" NAME="3_decorater Coverage Results" MODIFIED="1611552557419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/study_oldboy$02_5_threading_ex5.coverage" NAME="02.5_threading_ex5 Coverage Results" MODIFIED="1614232367217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$1_.coverage" NAME="1_三级菜单 Coverage Results" MODIFIED="1613619674246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/work/三级菜单" />
     <SUITE FILE_PATH="coverage/study_oldboy$9_def_.coverage" NAME="9_def_局部变量 Coverage Results" MODIFIED="1611215039817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$common.coverage" NAME="common Coverage Results" MODIFIED="1610955666099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/work/work shopping/core" />
@@ -406,7 +407,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$3_coding.coverage" NAME="3_coding Coverage Results" MODIFIED="1612140661084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$python_calc.coverage" NAME="python_calc Coverage Results" MODIFIED="1611810385402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$4_2_getitem.coverage" NAME="4.2_类的特性成员方法getitem Coverage Results" MODIFIED="1612149950565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
-    <SUITE FILE_PATH="coverage/study_oldboy$02_4_threading_ex4.coverage" NAME="02.4_threading_ex4 Coverage Results" MODIFIED="1614217842117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
+    <SUITE FILE_PATH="coverage/study_oldboy$02_4_threading_ex4.coverage" NAME="02.4_threading_ex4 Coverage Results" MODIFIED="1614232765217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$14_json.coverage" NAME="14_json Coverage Results" MODIFIED="1611628358627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$9_.coverage" NAME="9_列表生成式 Coverage Results" MODIFIED="1612142930586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$1_staticmethod.coverage" NAME="1_staticmethod静态方法 Coverage Results" MODIFIED="1612330134352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
