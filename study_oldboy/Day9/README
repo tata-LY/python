@@ -12,3 +12,14 @@
     一个线程可以控制和操作同一进程里的其他线程，但是进程只能操作子进程
 
     线程threading模块，Join、Daemon、线程锁
+    递归锁：
+            locks = {
+                door1:key1,
+                door2:key2,
+            }
+3. 线程之信号量:同一时间只允许n个线程运行
+4. 线程之Event：设定标识位
+5. queue队列
+    class queue.Queue(maxsize=0) #先入先出 创建一个队列对象（队列容量），若maxsize小于或者等于0，队列大小没有限制
+    class queue.LifoQueue(maxsize=0) # 先进后出
+    class queue.PriorityQueue(maxsize=0) #存储数据时可设置优先级的队列

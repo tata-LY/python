@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021-2-25 8:44
 # @Author  : liuyang
-# @File    : 02.1_threading_ex1.py
+# @File    : 02.4_threading_ex4_daemon.py
 # @Software: PyCharm
-"""循环时，join计算所有线程运行使用时间"""
+"""daemon守护"""
 
 import threading
 import time

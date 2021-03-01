@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021-2-25 8:44
 # @Author  : liuyang
-# @File    : 02.1_threading_ex1.py
+# @File    : 02.3_threading_ex3_join.py
 # @Software: PyCharm
 """join等待子线程执行完毕"""
 

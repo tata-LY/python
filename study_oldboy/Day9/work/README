@@ -1,0 +1,26 @@
+作业：简单主机批量管理工具
+要求：
+    1.主机分组
+    2.登录后显示主机分组，选择分组后查看主机列表
+    3.可批量执行命令、发送文件，结果实时返回
+    4.主机用户名密码可以不同
+
+程序目录结构：
+root:[E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day9\work\host_manage]
+|--bin      # 执行程序目录
+|      |--host_manage.py        # 程序执行程序
+|      |--__init__.py
+|--conf
+|      |--settings.py           # 配置文件
+|      |--__init__.py
+|      |--__pycache__
+|      |      |--settings.cpython-38.pyc
+|      |      |--__init__.cpython-38.pyc
+|--core
+|      |--all_class.py          # ssh、sft线程类
+|      |--main.py               # 核心模块
+|      |--__init__.py
+|      |--__pycache__
+|      |      |--all_class.cpython-38.pyc
+|      |      |--main.cpython-38.pyc
+|      |      |--__init__.cpython-38.pyc
