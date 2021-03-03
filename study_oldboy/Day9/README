@@ -17,9 +17,14 @@
                 door1:key1,
                 door2:key2,
             }
+
+    python多线程，不适合cpu密集型操作任务，适合io操作密集的任务。
+
 3. 线程之信号量:同一时间只允许n个线程运行
 4. 线程之Event：设定标识位
-5. queue队列
+5. queue队列：解耦，使程序直接实现松耦合，提高处理效率
+   FIFO = first in first out
     class queue.Queue(maxsize=0) #先入先出 创建一个队列对象（队列容量），若maxsize小于或者等于0，队列大小没有限制
-    class queue.LifoQueue(maxsize=0) # 先进后出
+   LIFO = last in first out
+    class queue.LifoQueue(maxsize=0) # 后入先出
     class queue.PriorityQueue(maxsize=0) #存储数据时可设置优先级的队列

@@ -20,6 +20,7 @@ def exec_cmd(choice_group):
             username = host['username']
             password = host['password']
             t = SshThread(ip, port, username, password, cmd)
+            t.setDaemon(True)
             t.start()
             t_objs.append(t)
 
@@ -38,6 +39,7 @@ def send_file(choice_group):
                 username = host['username']
                 password = host['password']
                 t = SftThread(ip, port, username, password, send_file)
+                t.setDaemon(True)
                 t.start()
                 t_objs.append(t)
             for t in t_objs:
