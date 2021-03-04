@@ -1,4 +1,5 @@
 1. 多进程：get进程ID,多进程Queue,多进程Pipe,Manager,进程锁Lock,进程池Pool
+    - Manager：可以支持 list, dict, Namespace, Lock, RLock, Semaphore, BoundedSemaphore, Condition, Event, Barrier, Queue, Value and Array，并在多个进程间共享和传递，也可以一起修改。
 2. 协程
     协程，又称微线程，纤程。英文名Coroutine。一句话说明什么是线程：协程是一种用户态的轻量级线程。
     协程拥有自己的寄存器上下文和栈。协程调度切换时，将寄存器上下文和栈保存到其他地方，在切回来的时候，恢复先前保存的寄存器上下文和栈。因此：
@@ -14,6 +15,19 @@
     - 无法利用多核资源：协程的本质是个单线程,它不能同时将 单个CPU 的多个核用上,协程需要和进程配合才能运行在多CPU上.当然我们日常所编写的绝大部分应用都没有这个必要，除非是cpu密集型应用。
     - 进行阻塞（Blocking）操作（如IO时）会阻塞掉整个程序
 
-3. 协程：Greenlet,Gevent,Socket
-    greenlet是一个用C实现的协程模块，相比与python自带的yield，它可以使你在任意函数之间随意切换，而不需把这个函数先声明为generator
-    Gevent 是一个第三方库，可以轻松通过gevent实现并发同步或异步编程，在gevent中用到的主要模式是Greenlet, 它是以C扩展模块形式接入Python的轻量级协程。 Greenlet全部运行在主程序操作系统进程的内部，但它们被协作式地调度。
+    Greenlet,Gevent,Socket
+    - greenlet是一个用C实现的协程模块，相比与python自带的yield，它可以使你在任意函数之间随意切换，而不需把这个函数先声明为generator
+    - Gevent 是一个第三方库，可以轻松通过gevent实现并发同步或异步编程，在gevent中用到的主要模式是Greenlet, 它是以C扩展模块形式接入Python的轻量级协程。 Greenlet全部运行在主程序操作系统进程的内部，但它们被协作式地调度。
+3. IO模型 http://www.cnblogs.com/alex3714/articles/5876749.html
+    - 阻塞I/O（blocking IO）
+    - 非阻塞I/O （non-blocking IO）
+    - I/O 多路复用（IO multiplexing）
+    - 信号驱动I/O （signal driven IO）
+    - 异步I/O （asynchronous IO）
+   I/O 多路复用之select、poll、epoll http://www.cnblogs.com/alex3714/p/4372426.html　
+    - select：比如100个system call，循环检测有没有数据，如果有，read数据并从kernel拷贝数据到用户进程。
+    - poll：和select差不多，没有了最大文件打开数的限制。
+    - epoll：kernel会告知进程哪个连接有数据，然后进程拿到连接read数据并拷贝。
+        - 水平触发：kernel通知进程取数据，进程没有取，数据缓存在内核内存里等待进程read。
+        - 边缘触发：kernel通知进程取数据，进程没有取，将不会再次告知，数据丢失。
+        - 内存映射（mmap）。

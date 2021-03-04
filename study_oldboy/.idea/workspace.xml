@@ -91,8 +91,8 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day4\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05.4_生产者消费者">
-    <configuration name="02.6_协程Gevent Socket_Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01.1_多进程">
+    <configuration name="01.1_多进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +105,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\02.6_协程Gevent Socket_Server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/01.1_多进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01.1_多进程" />
         <item itemvalue="Python.05.4_生产者消费者" />
         <item itemvalue="Python.04.2_threading_红绿灯" />
         <item itemvalue="Python.03.1_threading_信号量" />
         <item itemvalue="Python.02.7_Socket_Client" />
-        <item itemvalue="Python.02.6_协程Gevent Socket_Server" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +232,7 @@
       <workItem from="1612140387062" duration="94939000" />
       <workItem from="1613713642165" duration="15146000" />
       <workItem from="1614041165048" duration="14233000" />
-      <workItem from="1614155922866" duration="61631000" />
+      <workItem from="1614155922866" duration="66344000" />
     </task>
     <servers />
   </component>
@@ -268,26 +268,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="947" height="255" key="GridCell.Tab.0.bottom" timestamp="1614738364892">
+    <state width="947" height="255" key="GridCell.Tab.0.bottom" timestamp="1614748521850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614738364892" />
-    <state width="947" height="255" key="GridCell.Tab.0.center" timestamp="1614738364892">
+    <state width="947" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614748521850" />
+    <state width="947" height="255" key="GridCell.Tab.0.center" timestamp="1614748521849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614738364892" />
-    <state width="947" height="255" key="GridCell.Tab.0.left" timestamp="1614738364892">
+    <state width="947" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614748521849" />
+    <state width="947" height="255" key="GridCell.Tab.0.left" timestamp="1614748521848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614738364892" />
-    <state width="947" height="255" key="GridCell.Tab.0.right" timestamp="1614738364892">
+    <state width="947" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614748521848" />
+    <state width="947" height="255" key="GridCell.Tab.0.right" timestamp="1614748521850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614738364892" />
+    <state width="947" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614748521850" />
     <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1614562494517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,7 +380,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$02_4_threading_ex4.coverage" NAME="02.4_threading_ex4 Coverage Results" MODIFIED="1614232765217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$4_decorater.coverage" NAME="4_decorater Coverage Results" MODIFIED="1611553125931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$05_3_PriorityQueue.coverage" NAME="05.3_PriorityQueue Coverage Results" MODIFIED="1614317202916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
-    <SUITE FILE_PATH="coverage/study_oldboy$01_1_.coverage" NAME="01.1_多进程 Coverage Results" MODIFIED="1614578957580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
+    <SUITE FILE_PATH="coverage/study_oldboy$01_1_.coverage" NAME="01.1_多进程 Coverage Results" MODIFIED="1614748521833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$built_in_func.coverage" NAME="built-in_func Coverage Results" MODIFIED="1611303722948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$4.coverage" NAME="4 Coverage Results" MODIFIED="1611106127947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$course_selection.coverage" NAME="course_selection Coverage Results" MODIFIED="1611902673156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6/work/Course_selection_system（参考）/bin" />
