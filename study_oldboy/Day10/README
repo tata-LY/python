@@ -23,7 +23,7 @@
     - 非阻塞I/O （non-blocking IO）
     - I/O 多路复用（IO multiplexing）
     - 信号驱动I/O （signal driven IO）
-    - 异步I/O （asynchronous IO）
+    - 异步I/O （asynchronous IO） python3.X 增加模块asyncio
    I/O 多路复用之select、poll、epoll http://www.cnblogs.com/alex3714/p/4372426.html　
     - select：比如100个system call，循环检测有没有数据，如果有，read数据并从kernel拷贝数据到用户进程。
     - poll：和select差不多，没有了最大文件打开数的限制。
