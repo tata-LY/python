@@ -1,0 +1,203 @@
+[ 2021-03-05 10:59:13 ] INFO 新连接：<socket.socket fd=892, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56241)>
+[ 2021-03-05 10:59:19 ] INFO liuyang用户认证成功。
+[ 2021-03-05 10:59:29 ] INFO 断开连接：<socket.socket fd=892, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56241)>
+[ 2021-03-05 11:01:00 ] INFO 新连接：<socket.socket fd=728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56382)>
+[ 2021-03-05 11:01:07 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:01:11 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:27 ] INFO 切换到 dir1 目录。
+[ 2021-03-05 11:01:29 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-03-05 11:01:31 ] INFO 切换到 ../ 目录。
+[ 2021-03-05 11:01:32 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:36 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:38 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:43 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:01:51 ] INFO 断开连接：<socket.socket fd=728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56382)>
+[ 2021-03-05 11:01:55 ] INFO 新连接：<socket.socket fd=736, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56465)>
+[ 2021-03-05 11:02:00 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:02:01 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:05 ] INFO 切换到 dir1 目录。
+[ 2021-03-05 11:02:06 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-03-05 11:02:10 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:19 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\dir2 目录mkdir成功。
+[ 2021-03-05 11:02:20 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:25 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\dir2 rm成功。
+[ 2021-03-05 11:02:26 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:43 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\test2不是一个文件，rm失败。
+[ 2021-03-05 11:02:45 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:51 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\test1不是一个文件，rm失败。
+[ 2021-03-05 11:02:53 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:02:58 ] INFO 文件[fidfd]不存在，下载失败
+[ 2021-03-05 11:22:57 ] INFO 新连接：<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50534)>
+[ 2021-03-05 11:23:03 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:23:04 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:25:14 ] INFO 新连接：<socket.socket fd=764, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50680)>
+[ 2021-03-05 11:25:19 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:25:21 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:26:03 ] INFO 新连接：<socket.socket fd=756, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50695)>
+[ 2021-03-05 11:26:23 ] INFO 新连接：<socket.socket fd=824, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50702)>
+[ 2021-03-05 11:26:27 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:27:10 ] INFO 新连接：<socket.socket fd=760, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50719)>
+[ 2021-03-05 11:27:19 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:35:54 ] INFO 新连接：<socket.socket fd=776, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50934)>
+[ 2021-03-05 11:35:58 ] INFO liuyang用户认证成功。
+[ 2021-03-05 11:36:00 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 11:37:18 ] INFO 新连接：<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 50959)>
+[ 2021-03-05 11:37:22 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:12:07 ] INFO 新连接：<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53421)>
+[ 2021-03-05 13:12:19 ] INFO ly用户认证失败。
+[ 2021-03-05 13:12:19 ] INFO 断开连接：<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53421)>
+[ 2021-03-05 13:12:27 ] INFO 新连接：<socket.socket fd=792, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53430)>
+[ 2021-03-05 13:12:33 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:12:36 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 13:12:38 ] INFO 文件[fil1]不存在，下载失败
+[ 2021-03-05 13:13:42 ] INFO 新连接：<socket.socket fd=760, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53451)>
+[ 2021-03-05 13:13:47 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:13:50 ] INFO 文件[dfd]不存在，下载失败
+[ 2021-03-05 13:13:54 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 13:16:41 ] INFO 新连接：<socket.socket fd=184, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53549)>
+[ 2021-03-05 13:16:46 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:17:14 ] INFO 新连接：<socket.socket fd=768, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53561)>
+[ 2021-03-05 13:17:18 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:20:02 ] INFO 新连接：<socket.socket fd=824, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53632)>
+[ 2021-03-05 13:20:06 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:20:08 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 13:20:42 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 13:22:14 ] INFO 文件[file11]不存在，下载失败
+[ 2021-03-05 13:22:29 ] INFO 断开连接：<socket.socket fd=824, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53632)>
+[ 2021-03-05 13:23:34 ] INFO 新连接：<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53758)>
+[ 2021-03-05 13:23:52 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:23:56 ] INFO 断开连接：<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53758)>
+[ 2021-03-05 13:24:09 ] INFO 新连接：<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53778)>
+[ 2021-03-05 13:24:14 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:24:21 ] INFO 文件[file1]下载完成
+[ 2021-03-05 13:24:46 ] INFO 断开连接：<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53778)>
+[ 2021-03-05 13:26:17 ] INFO 新连接：<socket.socket fd=828, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53868)>
+[ 2021-03-05 13:26:26 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:27:12 ] INFO 新连接：<socket.socket fd=792, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 53883)>
+[ 2021-03-05 13:27:17 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:27:18 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 13:27:59 ] INFO 上传的文件dir1有同名的目录存在,上传失败
+[ 2021-03-05 13:43:27 ] INFO 新连接：<socket.socket fd=820, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54321)>
+[ 2021-03-05 13:43:31 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:43:35 ] INFO 文件[file2]下载完成
+[ 2021-03-05 13:43:40 ] INFO 断开连接：<socket.socket fd=820, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54321)>
+[ 2021-03-05 13:44:13 ] INFO 新连接：<socket.socket fd=820, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54334)>
+[ 2021-03-05 13:44:17 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:44:20 ] INFO 断开连接：<socket.socket fd=820, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54334)>
+[ 2021-03-05 13:44:56 ] INFO 新连接：<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54347)>
+[ 2021-03-05 13:45:01 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:45:05 ] INFO 断开连接：<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54347)>
+[ 2021-03-05 13:45:34 ] INFO 新连接：<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54357)>
+[ 2021-03-05 13:45:37 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:47:35 ] INFO 新连接：<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54390)>
+[ 2021-03-05 13:47:40 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:47:42 ] INFO 断开连接：<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54390)>
+[ 2021-03-05 13:49:11 ] INFO 新连接：<socket.socket fd=860, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54431)>
+[ 2021-03-05 13:49:16 ] INFO liuyang用户认证成功。
+[ 2021-03-05 13:49:19 ] INFO 断开连接：<socket.socket fd=860, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 54431)>
+[ 2021-03-05 14:23:45 ] INFO 新连接：<socket.socket fd=724, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55534)>
+[ 2021-03-05 14:23:51 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:24:16 ] INFO 新连接：<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55545)>
+[ 2021-03-05 14:24:20 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:25:17 ] INFO 新连接：<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55567)>
+[ 2021-03-05 14:25:21 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:28:59 ] INFO 新连接：<socket.socket fd=728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55808)>
+[ 2021-03-05 14:29:04 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:29:30 ] INFO 新连接：<socket.socket fd=796, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55818)>
+[ 2021-03-05 14:29:35 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:30:44 ] INFO 新连接：<socket.socket fd=756, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 55839)>
+[ 2021-03-05 14:30:48 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:35:59 ] INFO 新连接：<socket.socket fd=860, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56059)>
+[ 2021-03-05 14:41:10 ] INFO 新连接：<socket.socket fd=764, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56200)>
+[ 2021-03-05 14:41:27 ] INFO 新连接：<socket.socket fd=868, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56206)>
+[ 2021-03-05 14:41:32 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:41:47 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 14:53:59 ] INFO 新连接：<socket.socket fd=780, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56717)>
+[ 2021-03-05 14:54:05 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:55:13 ] INFO 新连接：<socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56786)>
+[ 2021-03-05 14:55:17 ] INFO liuyang用户认证成功。
+[ 2021-03-05 14:57:44 ] INFO 新连接：<socket.socket fd=796, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56833)>
+[ 2021-03-05 14:58:12 ] INFO 新连接：<socket.socket fd=708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56841)>
+[ 2021-03-05 14:58:16 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:00:48 ] INFO 新连接：<socket.socket fd=760, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56891)>
+[ 2021-03-05 15:00:53 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:02:11 ] INFO 新连接：<socket.socket fd=820, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 56948)>
+[ 2021-03-05 15:02:20 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:02:57 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:11:45 ] INFO 新连接：<socket.socket fd=872, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57196)>
+[ 2021-03-05 15:11:50 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:12:21 ] INFO 新连接：<socket.socket fd=744, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57207)>
+[ 2021-03-05 15:12:25 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:12:26 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:12:26 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:12:26 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:13:12 ] INFO 新连接：<socket.socket fd=776, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57231)>
+[ 2021-03-05 15:13:16 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:13:28 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:13:28 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:13:28 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:15:23 ] INFO 新连接：<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57272)>
+[ 2021-03-05 15:15:30 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:15:38 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:15:38 ] INFO 切换到 dir1 目录。
+[ 2021-03-05 15:15:38 ] INFO 切换到 dir1 目录。
+[ 2021-03-05 15:18:49 ] INFO 新连接：<socket.socket fd=724, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57370)>
+[ 2021-03-05 15:18:54 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:18:56 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:20:17 ] INFO 新连接：<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57401)>
+[ 2021-03-05 15:20:22 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:20:51 ] INFO 新连接：<socket.socket fd=784, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57414)>
+[ 2021-03-05 15:20:55 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:21:12 ] INFO 文件[file2]下载完成
+[ 2021-03-05 15:21:42 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:21:45 ] INFO 切换到 dir1 目录。
+[ 2021-03-05 15:21:45 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang\dir1 目录ls成功。
+[ 2021-03-05 15:23:52 ] INFO 新连接：<socket.socket fd=760, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57516)>
+[ 2021-03-05 15:23:57 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:24:00 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:24:03 ] INFO 文件[file1]下载完成
+[ 2021-03-05 15:24:07 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:34:34 ] INFO 新连接：<socket.socket fd=828, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57785)>
+[ 2021-03-05 15:34:38 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:34:40 ] INFO E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\ftproot\liuyang 目录ls成功。
+[ 2021-03-05 15:35:11 ] INFO 新连接：<socket.socket fd=860, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57795)>
+[ 2021-03-05 15:35:16 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:35:19 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:35:47 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:36:55 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:38:39 ] INFO 新连接：<socket.socket fd=868, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 57858)>
+[ 2021-03-05 15:38:46 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:38:51 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:39:08 ] INFO 文件[file1]下载完成
+[ 2021-03-05 15:39:13 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:44:09 ] INFO 新连接：<socket.socket fd=788, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58095)>
+[ 2021-03-05 15:44:14 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:44:23 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:45:22 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:46:22 ] INFO 断开连接：<socket.socket fd=788, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58095)>
+[ 2021-03-05 15:46:36 ] INFO 新连接：<socket.socket fd=708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58155)>
+[ 2021-03-05 15:46:41 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:46:45 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:47:45 ] INFO 断开连接：<socket.socket fd=708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58155)>
+[ 2021-03-05 15:47:59 ] INFO 新连接：<socket.socket fd=756, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58186)>
+[ 2021-03-05 15:48:04 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:48:12 ] INFO 文件[file1]上传成功
+[ 2021-03-05 15:48:20 ] INFO 文件[file1]下载完成
+[ 2021-03-05 15:54:37 ] INFO 文件[file2]下载完成
+[ 2021-03-05 15:56:44 ] INFO 新连接：<socket.socket fd=664, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58462)>
+[ 2021-03-05 15:56:51 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:58:23 ] INFO 新连接：<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58498)>
+[ 2021-03-05 15:58:33 ] INFO 新连接：<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58502)>
+[ 2021-03-05 15:58:37 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:59:36 ] INFO 新连接：<socket.socket fd=836, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58520)>
+[ 2021-03-05 15:59:40 ] INFO liuyang用户认证成功。
+[ 2021-03-05 15:59:52 ] INFO 新连接：<socket.socket fd=764, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58525)>
+[ 2021-03-05 15:59:59 ] INFO 新连接：<socket.socket fd=680, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58527)>
+[ 2021-03-05 16:00:04 ] INFO liuyang用户认证成功。
+[ 2021-03-05 16:00:25 ] INFO 新连接：<socket.socket fd=860, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58535)>
+[ 2021-03-05 16:01:40 ] INFO 新连接：<socket.socket fd=848, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58555)>
+[ 2021-03-05 16:01:47 ] INFO liuyang用户认证成功。
+[ 2021-03-05 16:01:49 ] INFO 断开连接：<socket.socket fd=848, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58555)>
+[ 2021-03-05 16:01:58 ] INFO 新连接：<socket.socket fd=888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58561)>
+[ 2021-03-05 16:02:00 ] INFO 断开连接：<socket.socket fd=888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9999), raddr=('127.0.0.1', 58561)>

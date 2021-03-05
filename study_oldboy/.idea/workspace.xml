@@ -20,27 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9/02.6_threading_ex6_lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/02.7_threading_ex7_lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/02.8_threading_ex8_递归锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/03.1_threading_信号量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/04.1_threading_红绿灯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/05.1_queue队列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/05.2_LifoQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/05.3_PriorityQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/05.4_生成者消费者.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/bin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/bin/host_manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/conf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/conf/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/work/host_manage/core/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10/work/ftp_client/dir1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10/work/ftp_server/ftproot/liuyang/file2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_work/selectors ftp/file1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_work/selectors ftp/ftp_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/02.3_threading_ex3_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/02.3_threading_ex3_join.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/02.4_threading_ex4_daemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/02.4_threading_ex4_daemon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/02.5_threading_ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/02.5_threading_ex5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,18 +55,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day10/work/ftp_client" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day9\work" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day9" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8\work\ftp_server\core" />
-      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day8" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day7" />
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy" />
@@ -90,9 +67,16 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day6\work\Course_selection_system（参考）" />
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day4\day4" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_client" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\core" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work\ftp_server\bin" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10\work" />
+      <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day10" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.01.1_多进程">
-    <configuration name="01.1_多进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ftp_client">
+    <configuration name="03.3_Selectors_Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/01.1_多进程.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/03.3_Selectors_Server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02.7_Socket_Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03.4_Socket_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +111,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/02.7_Socket_Client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/03.4_Socket_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03.1_threading_信号量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ftp_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +128,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_work/selectors ftp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/03.1_threading_信号量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_work/selectors ftp/ftp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04.2_threading_红绿灯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ftp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10/work/ftp_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/04.2_threading_红绿灯.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/work/ftp_client/ftp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05.4_生产者消费者" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ftp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10/work/ftp_server/bin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day9/05.4_生产者消费者.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/work/ftp_server/bin/ftp_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,13 +186,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.ftp_server" />
+      <item itemvalue="Python.ftp_client" />
+      <item itemvalue="Python.ftp_client (1)" />
+      <item itemvalue="Python.03.3_Selectors_Server" />
+      <item itemvalue="Python.03.4_Socket_client" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01.1_多进程" />
-        <item itemvalue="Python.05.4_生产者消费者" />
-        <item itemvalue="Python.04.2_threading_红绿灯" />
-        <item itemvalue="Python.03.1_threading_信号量" />
-        <item itemvalue="Python.02.7_Socket_Client" />
+        <item itemvalue="Python.ftp_client" />
+        <item itemvalue="Python.ftp_server" />
+        <item itemvalue="Python.03.4_Socket_client" />
+        <item itemvalue="Python.03.3_Selectors_Server" />
+        <item itemvalue="Python.ftp_client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +223,8 @@
       <workItem from="1612140387062" duration="94939000" />
       <workItem from="1613713642165" duration="15146000" />
       <workItem from="1614041165048" duration="14233000" />
-      <workItem from="1614155922866" duration="67706000" />
+      <workItem from="1614155922866" duration="87669000" />
+      <workItem from="1614914396930" duration="13388000" />
     </task>
     <servers />
   </component>
@@ -260,50 +252,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="983" y="0" width="848" height="698" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1612318341005" />
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614319754265">
+    <state x="828" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614848162228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614319754265" />
+    <state x="828" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614848162227" />
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614922065325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614922065325" />
     <state x="740" y="208" key="FileChooserDialogImpl" timestamp="1612318608052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="947" height="255" key="GridCell.Tab.0.bottom" timestamp="1614821827270">
+    <state width="1921" height="267" key="GridCell.Tab.0.bottom" timestamp="1614931321368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614821827270" />
-    <state width="947" height="255" key="GridCell.Tab.0.center" timestamp="1614821827270">
+    <state width="1921" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614931321368" />
+    <state width="1921" height="267" key="GridCell.Tab.0.center" timestamp="1614931321368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614821827270" />
-    <state width="947" height="255" key="GridCell.Tab.0.left" timestamp="1614821827270">
+    <state width="1921" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614931321368" />
+    <state width="1921" height="267" key="GridCell.Tab.0.left" timestamp="1614931321367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614126664843" />
-    <state width="947" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614821827270" />
-    <state width="947" height="255" key="GridCell.Tab.0.right" timestamp="1614821827270">
+    <state width="1921" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614931321367" />
+    <state width="1921" height="267" key="GridCell.Tab.0.right" timestamp="1614931321368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="756" height="373" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614126664844" />
-    <state width="947" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614821827270" />
-    <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1614562494517">
+    <state width="1921" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614931321368" />
+    <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1614926576789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614562494517" />
-    <state width="1921" height="354" key="GridCell.Tab.1.center" timestamp="1614562494516">
+    <state width="1921" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614926576789" />
+    <state width="1921" height="354" key="GridCell.Tab.1.center" timestamp="1614926576789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614562494516" />
-    <state width="1921" height="354" key="GridCell.Tab.1.left" timestamp="1614562494516">
+    <state width="1921" height="354" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614926576789" />
+    <state width="1921" height="354" key="GridCell.Tab.1.left" timestamp="1614926576789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614562494516" />
-    <state width="1921" height="354" key="GridCell.Tab.1.right" timestamp="1614562494517">
+    <state width="1921" height="354" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614926576789" />
+    <state width="1921" height="354" key="GridCell.Tab.1.right" timestamp="1614926576789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="354" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614562494517" />
+    <state width="1921" height="354" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614926576789" />
     <state x="827" y="105" width="998" height="708" key="SettingsEditor" timestamp="1614732870129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -358,7 +354,9 @@
     <SUITE FILE_PATH="coverage/study_oldboy$5.coverage" NAME="5 Coverage Results" MODIFIED="1611106279709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$5_decorater.coverage" NAME="5_decorater Coverage Results" MODIFIED="1611554304466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_tuple.coverage" NAME="3_tuple Coverage Results" MODIFIED="1612141907921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_5_mulex_socket_client.coverage" NAME="03.5_mutlti_socket_client Coverage Results" MODIFIED="1614848758627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_5_threading_ex5.coverage" NAME="02.5_threading_ex5 Coverage Results" MODIFIED="1614235077275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_1_Select_Socket_Server__1_.coverage" NAME="03.1_Select_Socket_Server (1) Coverage Results" MODIFIED="1614836797445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$04_2_threading_.coverage" NAME="04.2_threading_红绿灯 Coverage Results" MODIFIED="1614738309785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$6_def_return.coverage" NAME="6_def_函数return Coverage Results" MODIFIED="1611212540143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$05_1_queue.coverage" NAME="05.1_queue队列 Coverage Results" MODIFIED="1614305693232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
@@ -371,7 +369,9 @@
     <SUITE FILE_PATH="coverage/study_oldboy$05_module_os.coverage" NAME="05_module_os Coverage Results" MODIFIED="1611729994928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$main.coverage" NAME="main Coverage Results" MODIFIED="1614326479692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9/work/host_manage/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_5_Gevent.coverage" NAME="02.5_协程Gevent爬虫 Coverage Results" MODIFIED="1614736693297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_4_Socket_client.coverage" NAME="03.4_Socket_client Coverage Results" MODIFIED="1614929384052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$dog.coverage" NAME="dog Coverage Results" MODIFIED="1611812534652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_3_Selectors_Server.coverage" NAME="03.3_Selectors_Server Coverage Results" MODIFIED="1614929378025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$10_1_generator.coverage" NAME="10.1_generator生成器 Coverage Results" MODIFIED="1611561872769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$08_1_module_zipfile.coverage" NAME="08.1_module_zipfile Coverage Results" MODIFIED="1611732480705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613636759539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_server/core" />
@@ -388,6 +388,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$1_3level_menu.coverage" NAME="1_3level_menu Coverage Results" MODIFIED="1611205466815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$01_2_getid.coverage" NAME="01.2_get进程id Coverage Results" MODIFIED="1614583743278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_4_Gevent.coverage" NAME="02.4_协程Gevent Coverage Results" MODIFIED="1614733323469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_2_Socket_client.coverage" NAME="03.2_Socket_client Coverage Results" MODIFIED="1614836802014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$10_generator.coverage" NAME="10_generator生成器 Coverage Results" MODIFIED="1611563061211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1611104919663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$inherit_school.coverage" NAME="inherit_school Coverage Results" MODIFIED="1611812591386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
@@ -397,7 +398,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$02_8_threading_ex8_.coverage" NAME="02.8_threading_ex8_递归锁 Coverage Results" MODIFIED="1614237296784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$getitem.coverage" NAME="getitem Coverage Results" MODIFIED="1612149471543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7/day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorater4.coverage" NAME="decorater4 Coverage Results" MODIFIED="1611552886924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client__1_.coverage" NAME="ftp_client (1) Coverage Results" MODIFIED="1613724085422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_client" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client__1_.coverage" NAME="ftp_client (1) Coverage Results" MODIFIED="1614927219574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work/selectors ftp" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_2_socket_client_.coverage" NAME="3.2_socket_client_基本 Coverage Results" MODIFIED="1613614426207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
     <SUITE FILE_PATH="coverage/study_oldboy$15_module_re.coverage" NAME="15_module_re Coverage Results" MODIFIED="1612143039199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$login_while.coverage" NAME="login_while Coverage Results" MODIFIED="1610929780406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/day05课上笔记和代码" />
@@ -409,6 +410,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$13_2_module_configparser.coverage" NAME="13.2_module_configparser Coverage Results" MODIFIED="1613638030220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$15_pickle.coverage" NAME="15_pickle Coverage Results" MODIFIED="1611628363969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$package1.coverage" NAME="package1 Coverage Results" MODIFIED="1611713317237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5/package_test" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_5_mutlti_socket_client__1_.coverage" NAME="03.5_mutlti_socket_client (1) Coverage Results" MODIFIED="1614849071288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$polymorphism.coverage" NAME="polymorphism Coverage Results" MODIFIED="1611890898982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
     <SUITE FILE_PATH="coverage/study_oldboy$5_1_.coverage" NAME="5.1_反射 Coverage Results" MODIFIED="1612163827736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$1_socket_server_ssh.coverage" NAME="1_socket_server_ssh Coverage Results" MODIFIED="1612335583594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
@@ -433,7 +435,9 @@
     <SUITE FILE_PATH="coverage/study_oldboy$3_set_.coverage" NAME="3_set_集合 Coverage Results" MODIFIED="1611211326326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$while.coverage" NAME="while Coverage Results" MODIFIED="1610604413672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$01_2_paramiko_sft.coverage" NAME="01.2_paramiko_sft Coverage Results" MODIFIED="1614050743821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
+    <SUITE FILE_PATH="coverage/study_oldboy$03_1_Select.coverage" NAME="03.1_Select_Socket_Server Coverage Results" MODIFIED="1614824167602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$13_3_module_configparser.coverage" NAME="13.3_module_configparser Coverage Results" MODIFIED="1611736918240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_server__1_.coverage" NAME="ftp_server (1) Coverage Results" MODIFIED="1614927215304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work/selectors ftp" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_list.coverage" NAME="2_list Coverage Results" MODIFIED="1612141860514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
     <SUITE FILE_PATH="coverage/study_oldboy$4_3___new__.coverage" NAME="4.3_类的特殊成员方法__new__ Coverage Results" MODIFIED="1612158322845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$shopping1.coverage" NAME="shopping1 Coverage Results" MODIFIED="1610949849881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
@@ -457,10 +461,10 @@
     <SUITE FILE_PATH="coverage/study_oldboy$9_def_.coverage" NAME="9_def_局部变量 Coverage Results" MODIFIED="1611215039817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$common.coverage" NAME="common Coverage Results" MODIFIED="1610955666099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day05/work/work shopping/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$1_decorater.coverage" NAME="1_decorater Coverage Results" MODIFIED="1611551955233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1613626703171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/day8/ftp_client" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1614931317927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10/work/ftp_client" />
     <SUITE FILE_PATH="coverage/study_oldboy$inherit.coverage" NAME="inherit Coverage Results" MODIFIED="1611882242215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_7_Socket_Client.coverage" NAME="02.7_Socket_Client Coverage Results" MODIFIED="1614737570022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
-    <SUITE FILE_PATH="coverage/study_oldboy$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1613722944108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8/work/ftp_server/bin" />
+    <SUITE FILE_PATH="coverage/study_oldboy$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1614931293968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10/work/ftp_server/bin" />
     <SUITE FILE_PATH="coverage/study_oldboy$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1611638486021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/Atm/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_1_socket_client.coverage" NAME="7.1_socket_client Coverage Results" MODIFIED="1612419978038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
     <SUITE FILE_PATH="coverage/study_oldboy$cs_play.coverage" NAME="cs_play Coverage Results" MODIFIED="1611821588301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day6" />
@@ -485,7 +489,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$decorater6.coverage" NAME="decorater6 Coverage Results" MODIFIED="1611555667148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$transaction.coverage" NAME="transaction Coverage Results" MODIFIED="1611631479435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/work/Atm/core" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_2_socket_server.coverage" NAME="7.2_socket_server Coverage Results" MODIFIED="1612321845197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day7" />
-    <SUITE FILE_PATH="coverage/study_oldboy$1_1_socket_server_ssh.coverage" NAME="1.1_socket_server_ssh Coverage Results" MODIFIED="1612339418189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
+    <SUITE FILE_PATH="coverage/study_oldboy$1_1_socket_server_ssh.coverage" NAME="1.1_socket_server_ssh Coverage Results" MODIFIED="1614836234812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
     <SUITE FILE_PATH="coverage/study_oldboy$12_sys_mod.coverage" NAME="12_sys_mod Coverage Results" MODIFIED="1612140791563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/study_oldboy$07_module_shutil.coverage" NAME="07_module_shutil Coverage Results" MODIFIED="1611731800184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_decorator.coverage" NAME="3_decorator Coverage Results" MODIFIED="1612142906932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
@@ -498,7 +502,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$3.coverage" NAME="3 Coverage Results" MODIFIED="1611105640948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day08" />
     <SUITE FILE_PATH="coverage/study_oldboy$decorater5.coverage" NAME="decorater5 Coverage Results" MODIFIED="1611293247056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_1_threading_ex1.coverage" NAME="02.1_threading_ex1 Coverage Results" MODIFIED="1614215313438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
-    <SUITE FILE_PATH="coverage/study_oldboy$1_2_socket_client_ssh.coverage" NAME="1.2_socket_client_ssh Coverage Results" MODIFIED="1612403165648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
+    <SUITE FILE_PATH="coverage/study_oldboy$1_2_socket_client_ssh.coverage" NAME="1.2_socket_client_ssh Coverage Results" MODIFIED="1614836238467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
     <SUITE FILE_PATH="coverage/study_oldboy$2_.coverage" NAME="2_三级菜单 Coverage Results" MODIFIED="1613619691617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/work/三级菜单" />
     <SUITE FILE_PATH="coverage/study_oldboy$1_shopping.coverage" NAME="1_shopping Coverage Results" MODIFIED="1613619875543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/work" />
     <SUITE FILE_PATH="coverage/study_oldboy$pickle1.coverage" NAME="pickle1 Coverage Results" MODIFIED="1611627467997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
