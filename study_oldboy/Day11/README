@@ -1,0 +1,22 @@
+上周回顾：
+epoll linux         libevent.so
+gevent              libevent.so
+
+
+1.RabbitMQ消息队列    https://www.cnblogs.com/alex3714/articles/5248247.html
+    Python自身的Queue
+            threading Queue
+            process Queue   父进程与子进程进行交互，或者同属于同一父进程下多个子进程进行交互
+
+    RabbitMQ 语言erlang
+    Publish\Subscribe(消息发布\订阅)
+    简单的例子都基本都是1对1的消息发送和接收，即消息只能发送到指定的queue里，但有些时候你想让你的消息被所有的Queue收到，类似广播的效果，这时候就要用到exchange
+        fanout: 所有bind到此exchange的queue都可以接收消息
+        direct: 通过routingKey和exchange决定的那个唯一的queue可以接收消息
+        topic:所有符合routingKey(此时可以是一个表达式)的routingKey所bind的queue可以接收消息
+
+    Remote procedure call(RPC)
+
+
+2.Redis
+3.Mysql

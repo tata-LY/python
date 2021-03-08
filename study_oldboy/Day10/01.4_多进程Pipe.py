@@ -16,7 +16,8 @@ from threading import Thread
 def f(conn):
     conn.send([42, None, 'hello'])
     conn.send([43, None, 'hello'])
-    print(conn.recv())      # 接收parent_conn发送的  from parent send
+    print(conn.recv())      # 接收parent_conn发送的  from parent send1
+    print(conn.recv())      # from parent send2
     conn.close()
 
 
@@ -27,5 +28,6 @@ if __name__ == '__main__':
     p.start()
     print(parent_conn.recv())  # [42, None, 'hello']
     print(parent_conn.recv())  # [43, None, 'hello']
-    parent_conn.send("from parent send")
+    parent_conn.send("from parent send1")
+    parent_conn.send("from parent send2")
     p.join()
