@@ -23,7 +23,7 @@ import sys
 hostname = '192.168.113.11'
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host=hostname))
-channel = connection.channel()
+channel = connection.channel()  # 声明一个管道
 
 # pika版本不同导致的用法不同，解决方法为把type换成exchange_type
 channel.exchange_declare(exchange='logs',

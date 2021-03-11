@@ -1,26 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2021-2-19 9:50
+# @Time    : 2021-3-11 10:41
 # @Author  : liuyang
-# @File    : 临时.py
+# @File    : 执行命令获取结果.py
 # @Software: PyCharm
 
-
-# import sys
-# import subprocess
-# import chardet
-#
-# while True:
-#         cmd = input(">>>").strip()
-#         p = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
-#         out,err = p.communicate()
-#         # print(out)
-#         print(err)
-#         # encoding = chardet.detect(out)['encoding']
-#         # print(encoding)
-#         # out = out.decode(encoding)
-#         # for line in out.splitlines():
-#         #     print(line)
+"""
+不分系统，执行命令。并打印命令执行结果
+"""
 
 import subprocess
 import chardet
@@ -38,5 +25,3 @@ while True:
     encoding = chardet.detect(cmd_result)['encoding']       # 获取二进制格式的字符编码
     # print(encoding)
     print(cmd_result.decode(encoding))
-
-

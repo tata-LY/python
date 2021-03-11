@@ -1,0 +1,56 @@
+作业：rpc命令端
+需求：
+可以异步的执行多个命令
+对多台机器(暂只针对在server上执行命令结果)
+
+例子：
+# 命令帮助
+>>> help
+Usage：
+        1.输入运行的命令
+        2.check_all
+        3.check_task [ID]
+
+# 输入操作指令
+>>> ipconfig
+Task id [71f05116-142b-4c10-80a0-26d6359455fa]
+>>> ifconfig
+Task id [c868c4e5-e774-4a20-ae5c-073bc2af3f44]
+
+# 查看所有任务编号
+>>> check_all
+71f05116-142b-4c10-80a0-26d6359455fa
+c868c4e5-e774-4a20-ae5c-073bc2af3f44
+
+# 查看任务结果
+>>> check_task c868c4e5-e774-4a20-ae5c-073bc2af3f44
+略
+
+程序目录结构：
+root:[E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day11\work\RabbitMQ RPC命令端]
+|--bin      # 主执行程序目录
+|      |--rpc_client.py     # 客户端执行程序
+|      |--rpc_server.py     # 服务端执行程序
+|      |--__init__.py
+|--conf     # 配置目录
+|      |--settings.py       # 配置文件
+|      |--__init__.py
+|      |--__pycache__
+|      |      |--settings.cpython-38.pyc
+|      |      |--__init__.cpython-38.pyc
+|--db       # 数据目录
+|      |--task_data         # 数据持久化文件
+|      |--__init__.py
+
+程序配置：
+vim conf/settings
+# rabbitMQ IP
+RABBITMQ_IP = '192.168.113.11'
+# RabbitMQ 端口
+RABBITMQ_PORT = 5672
+# 数据持久化True/Fasle
+DB_DURABLE = True
+# 数据持久化文件
+DB_NAME = '%s/db/task_data' % BASE_DIR
+# rpc routing_key
+QUEUE_NAME = 'rpc_queue'
