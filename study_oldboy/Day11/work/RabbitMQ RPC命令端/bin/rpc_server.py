@@ -25,7 +25,7 @@ class RpcServer(object):
     def on_response(self):
         """等待client发过来的QUEUE_NAME并调用call"""
         self.channel.queue_declare(queue=self.QUEUE_NAME)
-        self.channel.basic_qos(prefetch_count=1)
+        self.channel.basic_qos(prefetch_count=1)    # QOS,处理完这个消息后才接收下一个
         self.channel.basic_consume(self.QUEUE_NAME,
                                    self.call        # 接收消息后回调call函数
                                   )
@@ -42,7 +42,7 @@ class RpcServer(object):
                          properties=pika.BasicProperties(correlation_id=properties.correlation_id),
                          # 服务端收到消息调用回调函数取得客户端发过来的uuid再发到客户端进行确认
                          body=cmd_response)
-        ch.basic_ack(delivery_tag=method.delivery_tag)      # consumer端确认，完成后删除服务端队列消息数据
+        ch.basic_ack(delivery_tag=method.delivery_tag)      # consumer端确认，完成后删除队列消息数据,删除client发过来的cmd命令消息
 
     def cmd_result(self, cmd):
         """系统执行cmd，并返回cmd结果"""

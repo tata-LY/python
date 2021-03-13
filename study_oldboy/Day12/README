@@ -1,0 +1,18 @@
+上周回顾：
+# RabbitMQ
+1. 平均分发
+2. prefetch_count=1 处理完才接收下一个消息
+3. durable队列持久化，deliver_mode=2消息持久化
+4. fanout 1对多广播，exchange
+5. RPC
+6. direct、topic
+# Redis
+
+关系型数据库：
+Oracle
+Mysql
+SqlServer
+DB2
+Postgresql
+Sqlite
+access
