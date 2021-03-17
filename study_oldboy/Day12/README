@@ -16,3 +16,165 @@ DB2
 Postgresql
 Sqlite
 access
+
+1. Mysql    https://www.cnblogs.com/alex3714/articles/5950372.html
+create table student(
+    id int not null auto_increment,
+    name char(32) not null,
+    register_date date not null ,
+    gender char(32) not null default 'X',
+    primary key (id)
+    );
+
+# 外键约束
+create table study_record(
+    id int auto_increment not null,
+    day int not null,
+    status char(32) not null default 'Yes',
+    stu_id  int not null,
+    primary key (id),
+    key fk_student_key (stu_id),
+    constraint fk_student_key foreign key (stu_id) references student (id)
+    );
+
+insert into student (name, register_date, gender)
+            values ('liuyang', '2021-03-15', 'M');
+
+# stu_id外键插入时，会检查student表中是否有对应的id
+insert into study_record (day, status, stu_id)
+            values (1, 'Yes', 1);
+
+# 联合查询
+INNER JOIN（内连接,或等值连接）：获取两个表中字段匹配关系的记录。
+mysql> select t1.*, t2.* from student t1 inner join study_record t2 on t1.id=t2.stu_id;
++----+---------+---------------+--------+----+-----+--------+--------+
+| id | name    | register_date | gender | id | day | status | stu_id |
++----+---------+---------------+--------+----+-----+--------+--------+
+|  1 | liuyang | 2021-03-15    | M      |  2 |   1 | Yes    |      1 |
+|  3 | liu     | 2021-03-15    | M      |  3 |   1 | Yes    |      3 |
++----+---------+---------------+--------+----+-----+--------+--------+
+
+LEFT JOIN（左连接）：获取左表所有记录，即使右表没有对应匹配的记录。
+mysql> select * from student t1 left join study_record t2 on t1.id=t2.stu_id;
++----+-----------+---------------+--------+------+------+--------+--------+
+| id | name      | register_date | gender | id   | day  | status | stu_id |
++----+-----------+---------------+--------+------+------+--------+--------+
+|  1 | liuyang   | 2021-03-15    | M      |    2 |    1 | Yes    |      1 |
+|  2 | zhangjuan | 2021-02-02    | F      | NULL | NULL | NULL   |   NULL |
+|  3 | liu       | 2021-03-15    | M      |    3 |    1 | Yes    |      3 |
++----+-----------+---------------+--------+------+------+--------+--------+
+
+RIGHT JOIN（右连接）： 与 LEFT JOIN 相反，用于获取右表所有记录，即使左表没有对应匹配的记录
+mysql> select * from student t1 right join study_record t2 on t1.id=t2.stu_id;
++------+---------+---------------+--------+----+-----+--------+--------+
+| id   | name    | register_date | gender | id | day | status | stu_id |
++------+---------+---------------+--------+----+-----+--------+--------+
+|    1 | liuyang | 2021-03-15    | M      |  2 |   1 | Yes    |      1 |
+|    3 | liu     | 2021-03-15    | M      |  3 |   1 | Yes    |      3 |
++------+---------+---------------+--------+----+-----+--------+--------+
+
+Full join
+mysql> select * from student t1 full join study_record t2 on t1.id=t2.stu_id;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'full join study_record t2 on t1.id=t2.stu_id' at line 1
+mysql 并不直接支持full join,but...
+mysql> select * from student t1 left join study_record t2 on t1.id=t2.stu_id union select * from student t1 right join study_record t2 on t1.id=t2.stu_id;
++------+-----------+---------------+--------+------+------+--------+--------+
+| id   | name      | register_date | gender | id   | day  | status | stu_id |
++------+-----------+---------------+--------+------+------+--------+--------+
+|    1 | liuyang   | 2021-03-15    | M      |    2 |    1 | Yes    |      1 |
+|    2 | zhangjuan | 2021-02-02    | F      | NULL | NULL | NULL   |   NULL |
+|    3 | liu       | 2021-03-15    | M      |    3 |    1 | Yes    |      3 |
++------+-----------+---------------+--------+------+------+--------+--------+
+
+# 事务
+MySQL 事务主要用于处理操作量大，复杂度高的数据。比如说，在人员管理系统中，你删除一个人员，你即需要删除人员的基本资料，也要删除和该人员相关的信息，如信箱，文章等等，这样，这些数据库操作语句就构成一个事务！
+    - 在MySQL中只有使用了Innodb数据库引擎的数据库或表才支持事务
+    - 事务处理可以用来维护数据库的完整性，保证成批的SQL语句要么全部执行，要么全部不执行
+    - 事务用来管理insert,update,delete语句
+
+一般来说，事务是必须满足4个条件（ACID）： Atomicity（原子性）、Consistency（稳定性）、Isolation（隔离性）、Durability（可靠性）
+    - 1、事务的原子性：一组事务，要么成功；要么撤回。
+    - 2、稳定性 ： 有非法数据（外键约束之类），事务撤回。
+    - 3、隔离性：事务独立运行。一个事务处理后的结果，影响了其他事务，那么其他事务会撤回。事务的100%隔离，需要牺牲速度。
+    - 4、可靠性：软、硬件崩溃后，InnoDB数据表驱动会利用日志文件重构修改。可靠性和高速度不可兼得， innodb_flush_log_at_trx_commit选项 决定什么时候吧事务保存到日志里
+
+mysql> begin;   # 开始一个事务
+mysql> insert into student (name, register_date, gender) values ('test1', '2021-03-15', 'M');
+mysql> insert into student (name, register_date, gender) values ('test2', '2021-03-15', 'M');
+mysql> select * from student;
++----+-----------+---------------+--------+
+| id | name      | register_date | gender |
++----+-----------+---------------+--------+
+|  1 | liuyang   | 2021-03-15    | M      |
+|  2 | zhangjuan | 2021-02-02    | F      |
+|  3 | liu       | 2021-03-15    | M      |
+|  4 | test1     | 2021-03-15    | M      |
+|  5 | test2     | 2021-03-15    | M      |
++----+-----------+---------------+--------+
+mysql> rollback;    # 回滚，这样上面insert的数据是不会写入的
+mysql> select * from student;
++----+-----------+---------------+--------+
+| id | name      | register_date | gender |
++----+-----------+---------------+--------+
+|  1 | liuyang   | 2021-03-15    | M      |
+|  2 | zhangjuan | 2021-02-02    | F      |
+|  3 | liu       | 2021-03-15    | M      |
++----+-----------+---------------+--------+
+如果上面的数据没问题，输入commit提交命令就行了
+
+# 索引
+MySQL索引的建立对于MySQL的高效运行是很重要的，索引可以大大提高MySQL的检索速度。
+打个比方，如果合理的设计且使用索引的MySQL是一辆兰博基尼的话，那么没有设计和使用索引的MySQL就是一个人力三轮车。
+索引分单列索引和组合索引。单列索引，即一个索引只包含单个列，一个表可以有多个单列索引，但这不是组合索引。组合索引，即一个索包含多个列。
+创建索引时，你需要确保该索引是应用在 SQL 查询语句的条件(一般作为 WHERE 子句的条件)。
+实际上，索引也是一张表，该表保存了主键与索引字段，并指向实体表的记录。
+上面都在说使用索引的好处，但过多的使用索引将会造成滥用。因此索引也会有它的缺点：虽然索引大大提高了查询速度，同时却会降低更新表的速度，如对表进行INSERT、UPDATE和DELETE。因为更新表时，MySQL不仅要保存数据，还要保存一下索引文件。建立索引会占用磁盘空间的索引文件。
+
+普通索引创建：
+mysql> create index index_name on student(name(32));    # 方法一
+mysql> alter student add index index_name on (name(32));    # 方法二
+也可以在create语句中添加：INDEX [indexName] (username(length))
+mysql> mysql> show index from student;
++---------+------------+------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table   | Non_unique | Key_name   | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++---------+------------+------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| student |          0 | PRIMARY    |            1 | id          | A         |           4 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| student |          1 | index_name |            1 | name        | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
++---------+------------+------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+删除索引：
+DROP INDEX [indexName] ON mytable;
+
+唯一索引
+它与前面的普通索引类似，不同的就是：索引列的值必须唯一，但允许有空值。如果是组合索引，则列值的组合必须唯一。它有以下几种创建方式：
+创建索引
+CREATE UNIQUE INDEX indexName ON mytable(username(length))
+修改表结构
+ALTER mytable ADD UNIQUE [indexName] ON (username(length))
+创建表的时候直接指定
+CREATE TABLE mytable(
+    ID INT NOT NULL,
+    username VARCHAR(16) NOT NULL,
+    UNIQUE [indexName] (username(length))
+    );
+
+使用ALTER 命令添加和删除索引，有四种方式来添加数据表的索引：
+ALTER TABLE tbl_name ADD PRIMARY KEY (column_list): 该语句添加一个主键，这意味着索引值必须是唯一的，且不能为NULL。
+ALTER TABLE tbl_name ADD UNIQUE index_name (column_list): 这条语句创建索引的值必须是唯一的（除了NULL外，NULL可能会出现多次）。
+ALTER TABLE tbl_name ADD INDEX index_name (column_list): 添加普通索引，索引值可出现多次。
+ALTER TABLE tbl_name ADD FULLTEXT index_name (column_list):该语句指定了索引为 FULLTEXT ，用于全文索引。
+
+使用 ALTER 命令添加和删除主键
+主键只能作用于一个列上，添加主键索引时，你需要确保该主键默认不为空（NOT NULL）。实例如下：
+mysql> ALTER TABLE testalter_tbl MODIFY i INT NOT NULL;
+mysql> ALTER TABLE testalter_tbl ADD PRIMARY KEY (i);
+你也可以使用 ALTER 命令删除主键：
+mysql> ALTER TABLE testalter_tbl DROP PRIMARY KEY;
+删除指定时只需指定PRIMARY KEY，但在删除索引时，你必须知道索引名。
+
+显示索引信息
+mysql> SHOW INDEX FROM table_name\G
+
+pymysql操作Mysql  https://www.cnblogs.com/wupeiqi/articles/5713330.html
+
+2. SQLAlchemy ORM
+https://www.cnblogs.com/alex3714/articles/5978329.html
