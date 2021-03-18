@@ -38,7 +38,8 @@ Session = Session_class()  # 生成session实例
 
 
 for i in range(1000):
-    name = "name" + str(i).rjust(3,'0')
+    # name = "name" + str(i).rjust(3,'0')
+    name = "name" + str("%03d" % i)
     date = '2021-03-17'
     gender = random.choice(['M', 'F'])
     obj = Student(name=name, register_date=date, gender=gender)

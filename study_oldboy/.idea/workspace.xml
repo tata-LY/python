@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day12/01.01_pymysql_conn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/02.01_SQLAlchemy_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/02.02_SQLAlchemy_metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/02.03_SQLAlchemy_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/02.04_SQLAlchemy_外键关联.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/02.05_SQLALchemy_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/orm_many_fk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/02.05_SQLAlchemy_多对多.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12/02.03_SQLAlchemy_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/02.03_SQLAlchemy_add.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +73,7 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day4\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02.05_SQLALchemy_api">
-    <configuration name="02.01_SQLAlchemy_base (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12/02.01_SQLAlchemy_base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.02.05_SQLAlchemy_多对多">
     <configuration name="02.03_SQLAlchemy_add" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +140,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="02.05_SQLAlchemy_多对多" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12/02.05_SQLAlchemy_多对多.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="orm_many_fk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.02.01_SQLAlchemy_base (1)" />
       <item itemvalue="Python.02.03_SQLAlchemy_add" />
       <item itemvalue="Python.02.04_SQLAlchemy_外键关联" />
       <item itemvalue="Python.orm_many_fk" />
       <item itemvalue="Python.02.05_SQLALchemy_api" />
+      <item itemvalue="Python.02.05_SQLAlchemy_多对多" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02.05_SQLAlchemy_多对多" />
+        <item itemvalue="Python.02.03_SQLAlchemy_add" />
         <item itemvalue="Python.02.05_SQLALchemy_api" />
         <item itemvalue="Python.orm_many_fk" />
         <item itemvalue="Python.02.04_SQLAlchemy_外键关联" />
-        <item itemvalue="Python.02.01_SQLAlchemy_base (1)" />
-        <item itemvalue="Python.02.03_SQLAlchemy_add" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +224,7 @@
       <workItem from="1614155922866" duration="87669000" />
       <workItem from="1614914396930" duration="16421000" />
       <workItem from="1615001263212" duration="70572000" />
-      <workItem from="1615793757019" duration="27543000" />
+      <workItem from="1615793757019" duration="33361000" />
     </task>
     <servers />
   </component>
@@ -271,26 +264,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612318608052" />
-    <state width="916" height="327" key="GridCell.Tab.0.bottom" timestamp="1615950374526">
+    <state width="1921" height="335" key="GridCell.Tab.0.bottom" timestamp="1616028214710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1537" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615373891612" />
-    <state width="916" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615950374526" />
-    <state width="916" height="327" key="GridCell.Tab.0.center" timestamp="1615950374526">
+    <state width="1537" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615981715129" />
+    <state width="1921" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616028214710" />
+    <state width="1921" height="335" key="GridCell.Tab.0.center" timestamp="1616028214710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1537" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615373891612" />
-    <state width="916" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615950374526" />
-    <state width="916" height="327" key="GridCell.Tab.0.left" timestamp="1615950374525">
+    <state width="1537" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615981715129" />
+    <state width="1921" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616028214710" />
+    <state width="1921" height="335" key="GridCell.Tab.0.left" timestamp="1616028214710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1537" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615373891612" />
-    <state width="916" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615950374525" />
-    <state width="916" height="327" key="GridCell.Tab.0.right" timestamp="1615950374526">
+    <state width="1537" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615981715126" />
+    <state width="1921" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616028214710" />
+    <state width="1921" height="335" key="GridCell.Tab.0.right" timestamp="1616028214710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1537" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615373891612" />
-    <state width="916" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615950374526" />
+    <state width="1537" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615981715129" />
+    <state width="1921" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616028214710" />
     <state width="1921" height="354" key="GridCell.Tab.1.bottom" timestamp="1615600244197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,7 +365,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$02_5_threading_ex5.coverage" NAME="02.5_threading_ex5 Coverage Results" MODIFIED="1614235077275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/study_oldboy$03_1_Select_Socket_Server__1_.coverage" NAME="03.1_Select_Socket_Server (1) Coverage Results" MODIFIED="1614836797445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10" />
     <SUITE FILE_PATH="coverage/study_oldboy$04_2_threading_.coverage" NAME="04.2_threading_红绿灯 Coverage Results" MODIFIED="1614738309785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
-    <SUITE FILE_PATH="coverage/study_oldboy$02_05_SQLAlchemy_.coverage" NAME="02.05_SQLAlchemy_多外键关联 Coverage Results" MODIFIED="1615948887688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12" />
+    <SUITE FILE_PATH="coverage/study_oldboy$02_05_SQLAlchemy_.coverage" NAME="02.05_SQLAlchemy_多对多 Coverage Results" MODIFIED="1616028214678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_3_redis_pipeline.coverage" NAME="02.3_redis_pipeline Coverage Results" MODIFIED="1615339930142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11" />
     <SUITE FILE_PATH="coverage/study_oldboy$6_def_return.coverage" NAME="6_def_函数return Coverage Results" MODIFIED="1611212540143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_oldboy2/Day14" />
     <SUITE FILE_PATH="coverage/study_oldboy$05_1_queue.coverage" NAME="05.1_queue队列 Coverage Results" MODIFIED="1614305693232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
@@ -549,7 +542,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$encode2.coverage" NAME="encode2 Coverage Results" MODIFIED="1611044547971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/study_oldboy$progress.coverage" NAME="progress Coverage Results" MODIFIED="1611213048265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="临时 Coverage Results" MODIFIED="1615448146305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
-    <SUITE FILE_PATH="coverage/study_oldboy$02_03_SQLAlchemy_add.coverage" NAME="02.03_SQLAlchemy_add Coverage Results" MODIFIED="1615943045953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12" />
+    <SUITE FILE_PATH="coverage/study_oldboy$02_03_SQLAlchemy_add.coverage" NAME="02.03_SQLAlchemy_add Coverage Results" MODIFIED="1615958379622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12" />
     <SUITE FILE_PATH="coverage/study_oldboy$04_module_random.coverage" NAME="04_module_random Coverage Results" MODIFIED="1611728069335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_decorator.coverage" NAME="7_decorator Coverage Results" MODIFIED="1611556910384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/study_oldboy$3_1_socketServer_server_.coverage" NAME="3.1_socketServer_server_基本 Coverage Results" MODIFIED="1613613928368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day8" />
