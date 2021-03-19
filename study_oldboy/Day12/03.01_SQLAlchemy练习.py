@@ -17,6 +17,7 @@ from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy import func
 from sqlalchemy import DATE, Enum
 from sqlalchemy import ForeignKey
+from sqlalchemy import Table
 
 MYSQL_IP = '192.168.113.11'
 MYSQL_PORT = 3306
@@ -40,6 +41,35 @@ class Student(Base):
     name = Column(String(32), nullable=False)
     register_date = Column(DATE, nullable=False)
     gender = Column(Enum("M", "F"), nullable=False)
+
+class StudyRecord(Base):
+    """外键关联Student"""
+    __tablename__ = 'study_record'  # 表名
+    id = Column(Integer, primary_key=True)
+    day = Column(Integer, nullable=False)
+    status = Column(String(32), nullable=False)
+    stu_id = Column(Integer, ForeignKey('student.id'))
+    student = relationship("Student", backref="my_study_record")
+
+
+# 多对多外键
+# metadata方式创建Table
+book_m2m_author = Table('book_m2m_author', Base.metadata,
+                        Column('book_id',Integer,ForeignKey('books.id')),
+                        Column('author_id',Integer,ForeignKey('authors.id')),
+                        )
+class Book(Base):
+    __tablename__ = 'books'
+    id = Column(Integer,primary_key=True)
+    name = Column(String(64))
+    pub_date = Column(DATE)
+    authors = relationship('Author',secondary=book_m2m_author,backref='books')
+
+class Author(Base):
+    __tablename__ = 'authors'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(32))
+
 
 session_class = sessionmaker(bind=engine)  # 创建与数据库的会话session class ,注意,这里返回给session的是个class,不是实例
 session = session_class()  # 生成session实例
