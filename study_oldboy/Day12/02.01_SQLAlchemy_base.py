@@ -40,6 +40,10 @@ class Student(Base):
     def __repr__(self):
         return "<id:%s name:%s>" % (self.id, self.name)
 
+
+# 删除表
+# Base.metadata.drop_all(engine)
+
 # 创建表
 Base.metadata.create_all(engine)  # 创建表结构
 
