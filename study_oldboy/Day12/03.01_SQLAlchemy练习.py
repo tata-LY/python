@@ -74,18 +74,28 @@ class Author(Base):
 session_class = sessionmaker(bind=engine)  # 创建与数据库的会话session class ,注意,这里返回给session的是个class,不是实例
 session = session_class()  # 生成session实例
 
-def get_student(id=None, name=None, register_date=None, gender=None):
-    q = session.query(Student)
-    if id:
-        q = q.filter(Student.id == id)
-    if name:
-        q = q.filter(Student.name == name)
-    if register_date:
-        q = q.filter(Student.register_date == register_date)
-    if gender:
-        q = q.filter(Student.gender == gender)
+# def get_student(id=None, name=None, register_date=None, gender=None):
+#     q = session.query(Student)
+#     if id:
+#         q = q.filter(Student.id == id)
+#     if name:
+#         q = q.filter(Student.name == name)
+#     if register_date:
+#         q = q.filter(Student.register_date == register_date)
+#     if gender:
+#         q = q.filter(Student.gender == gender)
+#
+#     return q.all()
 
+def print_student(data):
+    for item in data:
+        print(item.id, item.name, item.register_date, item.gender)
+
+def get_student(*args):
+    """多条件"""
+    q = session.query(Student)
+    for item in args:
+        q = q.filter(item)
     return q.all()
 
-data = get_student(id=100)
-print(data)
+print_student(get_student(Student.id<10, Student.id>2, Student.id ==6, Student.name=='name1'))
