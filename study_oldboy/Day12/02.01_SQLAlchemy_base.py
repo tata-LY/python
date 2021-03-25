@@ -52,11 +52,11 @@ Session = Session_class()  # 生成session实例
 
 
 # 插入
-user_obj = User(name="liuyang", password="123456")  # 生成你要创建的数据对象
-# print(user_obj.name, user_obj.id)  # 此时还没创建对象呢，不信你打印一下id发现还是None
-Session.add(user_obj)  # 把要创建的数据对象添加到这个session里， 一会统一创建
-# print(user_obj.name, user_obj.id)  # 此时也依然还没创建
-Session.commit()  # 现此才统一提交，创建数据
+# user_obj = User(name="liuyang", password="123456")  # 生成你要创建的数据对象
+# # print(user_obj.name, user_obj.id)  # 此时还没创建对象呢，不信你打印一下id发现还是None
+# Session.add(user_obj)  # 把要创建的数据对象添加到这个session里， 一会统一创建
+# # print(user_obj.name, user_obj.id)  # 此时也依然还没创建
+# Session.commit()  # 现此才统一提交，创建数据
 
 
 # 查询
@@ -66,7 +66,8 @@ Session.commit()  # 现此才统一提交，创建数据
 # filter使用
 # data = Session.query(User).filter(User.name=='liuyang').all() # 全部
 # data = Session.query(User).filter(User.id>3).filter(User.id<8).all()    # 多条件
-data = Session.query(User).filter(User.id==1).first()
+data = Session.query(User.id, User.name).filter(User.id>3, User.id<8).all()   # 多条件
+# data = Session.query(User).filter(User.id==1).first()
 print(data)
 
 # # 修改
@@ -86,8 +87,8 @@ print(Session.query(User).filter(User.name.in_(['Jack', 'rain'])).all())  # 再�
 print(Session.query(User).filter(User.id>3).filter(User.id<8).count())
 
 # 分组 group by
-print(Session.query(func.count(User.name), User.name).group_by(User.name).all())
-
+print(Session.query(func.count(User.id), User.name).group_by(User.name).all())
+exit()
 # 删除数据
 Session.query(User).filter(User.id > 10).delete()
 Session.commit()

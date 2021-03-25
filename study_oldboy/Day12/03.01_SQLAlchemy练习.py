@@ -35,25 +35,7 @@ engine = create_engine(
 
 Base = declarative_base()  # 生成orm基类
 
-class Student(Base):
-    __tablename__ = 'student'  # 表名
-    id = Column(Integer, primary_key=True)
-    name = Column(String(32), nullable=False)
-    register_date = Column(DATE, nullable=False)
-    gender = Column(Enum("M", "F"), nullable=False)
-
-class StudyRecord(Base):
-    """外键关联Student"""
-    __tablename__ = 'study_record'  # 表名
-    id = Column(Integer, primary_key=True)
-    day = Column(Integer, nullable=False)
-    status = Column(String(32), nullable=False)
-    stu_id = Column(Integer, ForeignKey('student.id'))
-    student = relationship("Student", backref="my_study_record")
-
-
-# 多对多外键
-# metadata方式创建Table
+# 多对多外键，metadata方式创建Table
 book_m2m_author = Table('book_m2m_author', Base.metadata,
                         Column('book_id',Integer,ForeignKey('books.id')),
                         Column('author_id',Integer,ForeignKey('authors.id')),
@@ -70,32 +52,41 @@ class Author(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(32))
 
+class Student(Base):
+    __tablename__ = 'student'  # 表名
+    id = Column(Integer, primary_key=True)
+    name = Column(String(32), nullable=False)
+    register_date = Column(DATE, nullable=False)
+    gender = Column(Enum("M", "F"), nullable=False)
+
+class StudyRecord(Base):
+    """外键关联Student"""
+    __tablename__ = 'study_record'  # 表名
+    id = Column(Integer, primary_key=True)
+    day = Column(Integer, nullable=False)
+    status = Column(String(32), nullable=False)
+    stu_id = Column(Integer, ForeignKey('student.id'))
+    student = relationship("Student", backref="my_study_record")
 
 session_class = sessionmaker(bind=engine)  # 创建与数据库的会话session class ,注意,这里返回给session的是个class,不是实例
 session = session_class()  # 生成session实例
-
-# def get_student(id=None, name=None, register_date=None, gender=None):
-#     q = session.query(Student)
-#     if id:
-#         q = q.filter(Student.id == id)
-#     if name:
-#         q = q.filter(Student.name == name)
-#     if register_date:
-#         q = q.filter(Student.register_date == register_date)
-#     if gender:
-#         q = q.filter(Student.gender == gender)
-#
-#     return q.all()
 
 def print_student(data):
     for item in data:
         print(item.id, item.name, item.register_date, item.gender)
 
 def get_student(*args):
-    """多条件"""
-    q = session.query(Student)
-    for item in args:
-        q = q.filter(item)
-    return q.all()
+    """多条件查询"""
+    return session.query(Student).filter(*args).all()
 
-print_student(get_student(Student.id<10, Student.id>2, Student.id ==6, Student.name=='name1'))
+def put_student(name, register_date, gender):
+    """数据插入"""
+    student_obj = Student(name=name, register_date=register_date, gender=gender)
+    session.add(student_obj)
+    session.commit()
+
+# print_student(get_student(Student.id<10, Student.id>2))
+# print_student(session.query(Student).filter(Student.id<10, Student.id>2).all())
+
+put_student('lytest', '2021-03-23', 'M')
+print_student(get_student(Student.name == 'lytest'))

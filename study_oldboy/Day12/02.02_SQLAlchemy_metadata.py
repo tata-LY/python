@@ -5,6 +5,7 @@
 # @File    : 02.02_SQLAlchemy_metadata.py
 # @Software: PyCharm
 
+
 from sqlalchemy import Table, MetaData, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import mapper
 
@@ -17,12 +18,12 @@ user = Table('user2', metadata,
              Column('password', String(12))
              )
 
-
 class User(object):
-    def __init__(self, name, fullname, password):
+    def __init__(self, id, name, fullname, password):
+        self.id = id
         self.name = name
         self.fullname = fullname
         self.password = password
 
 
-mapper(User, user)  # the table metadata is created separately with the Table construct, then associated with the User class via the mapper() function
+mapper(User, user)  # 表元数据与表构造分开创建，然后通过mapper（）函数与用户类关联

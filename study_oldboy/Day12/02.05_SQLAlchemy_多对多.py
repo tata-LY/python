@@ -57,14 +57,35 @@ session = Session_class()  # 生成session实例
 # a1 = Author(name="liuyang")
 # a2 = Author(name="zhuangjuan")
 # a3 = Author(name="alex")
+
 #
 # b1.authors = [a1, a2]
 # b2.authors = [a1, a2, a3]
 # b3.authors = [a1]
 # b4.authors = [a2]
-#
+
+
 # session.add_all([b1, b2, b3, b4, a1, a2, a3])
 # session.commit()
+
+# b5 = Book(name="book5")
+# b6 = Book(name="book6")
+# a4 = Author(name="name4")
+# a5 = Author(name="name5")
+# a4.books = [b5, b6]
+# a5.books = [b5]
+# session.add_all([b5, b6, a4, a5])
+# session.commit()
+
+# 添加books，与已有的authors数据关联
+# b7 =Book(name="book7")
+# a1 = session.query(Author).filter(Author.name == "name4").first()
+# a2 = session.query(Author).filter(Author.name == "name5").first()
+# b7.books = [a1, a2]
+# session.add_all([b7])
+# session.commit()
+
+
 
 # 中文数据插入
 # b1 = Book(name="书籍1")
@@ -84,13 +105,13 @@ session = Session_class()  # 生成session实例
 
 # 数据查询
 # 通过author查book
-author_obj = session.query(Author).filter(Author.name == "liuyang").first()
-print(author_obj)           # liuyang
-print(author_obj.books)     # [book1, book2, book3]
-# 通过book查author
-book_obj = session.query(Book).filter(Book.id == 5).first()
-print(book_obj)             # 书籍1
-print(book_obj.authors)     # [张娟, 刘洋]
+# author_obj = session.query(Author).filter(Author.name == "liuyang").first()
+# print(author_obj)           # liuyang
+# print(author_obj.books)     # [book1, book2, book3]
+# # 通过book查author
+# book_obj = session.query(Book).filter(Book.id == 5).first()
+# print(book_obj)             # 书籍1
+# print(book_obj.authors)     # [张娟, 刘洋]
 
 """
 多对多删除
