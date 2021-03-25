@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c86bad-3f69-4024-8d97-772ecc1bae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/bin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/bin/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/conf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/core/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/SQLAlchemy学员管理系统/database/table_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12/work/images/数据库结构.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12/02.01_SQLAlchemy_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/02.01_SQLAlchemy_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12/03.01_SQLAlchemy练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/03.01_SQLAlchemy练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12/work/README" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/work/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12/work/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/work/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_work/打印目录结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_work/打印目录结构.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +73,29 @@
       <recent name="E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day6\work\Course_selection_system（参考）" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.common">
+  <component name="RunManager" selected="Python.打印目录结构">
+    <configuration name="打印目录结构" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_oldboy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_work/打印目录结构.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="02.01_SQLAlchemy_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_oldboy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,28 +110,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12/02.01_SQLAlchemy_base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02.05_SQLAlchemy_多对多" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study_oldboy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12/02.05_SQLAlchemy_多对多.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.02.05_SQLAlchemy_多对多" />
       <item itemvalue="Python.table_class" />
       <item itemvalue="Python.start" />
       <item itemvalue="Python.common" />
       <item itemvalue="Python.02.01_SQLAlchemy_base" />
+      <item itemvalue="Python.打印目录结构" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.打印目录结构" />
         <item itemvalue="Python.start" />
         <item itemvalue="Python.common" />
         <item itemvalue="Python.02.01_SQLAlchemy_base" />
         <item itemvalue="Python.table_class" />
-        <item itemvalue="Python.02.05_SQLAlchemy_多对多" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +227,7 @@
       <workItem from="1615793757019" duration="44178000" />
       <workItem from="1616372402721" duration="11562000" />
       <workItem from="1616465522793" duration="51658000" />
+      <workItem from="1616653446791" duration="1104000" />
     </task>
     <servers />
   </component>
@@ -554,7 +546,7 @@
     <SUITE FILE_PATH="coverage/study_oldboy$01_3_rabbitmq_consumer.coverage" NAME="01.3_rabbitmq_consumer Coverage Results" MODIFIED="1615186735186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11" />
     <SUITE FILE_PATH="coverage/study_oldboy$encode2.coverage" NAME="encode2 Coverage Results" MODIFIED="1611044547971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/study_oldboy$progress.coverage" NAME="progress Coverage Results" MODIFIED="1611213048265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
-    <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="临时 Coverage Results" MODIFIED="1615448146305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
+    <SUITE FILE_PATH="coverage/study_oldboy$.coverage" NAME="打印目录结构 Coverage Results" MODIFIED="1616653680362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_work" />
     <SUITE FILE_PATH="coverage/study_oldboy$02_03_SQLAlchemy_add.coverage" NAME="02.03_SQLAlchemy_add Coverage Results" MODIFIED="1615958379622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12" />
     <SUITE FILE_PATH="coverage/study_oldboy$04_module_random.coverage" NAME="04_module_random Coverage Results" MODIFIED="1611728069335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day5" />
     <SUITE FILE_PATH="coverage/study_oldboy$7_decorator.coverage" NAME="7_decorator Coverage Results" MODIFIED="1611556910384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />

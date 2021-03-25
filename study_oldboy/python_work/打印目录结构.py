@@ -8,7 +8,7 @@
 import os
 import os.path
 
-dir_name = r'E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day11\work\RabbitMQ RPC命令端'
+dir_name = r'E:\刘洋工作\20200921\git\tata-LY\python\study_oldboy\Day12\work\SQLAlchemy学员管理系统'
 
 
 def dfs_showdir(path, depth):
